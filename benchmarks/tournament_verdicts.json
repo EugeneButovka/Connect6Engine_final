@@ -1,0 +1,8261 @@
+{
+ "probe": [
+  {
+   "start": 36,
+   "mover": "black",
+   "floor": 3,
+   "engine": "v4",
+   "move": "GIHL",
+   "score": 610,
+   "verdict": "quiet",
+   "nodes": 2147,
+   "ms": 1070.3
+  },
+  {
+   "start": 36,
+   "mover": "black",
+   "floor": 3,
+   "engine": "v5",
+   "move": "JRQJ",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 70,
+   "ms": 352.9
+  },
+  {
+   "start": 36,
+   "mover": "black",
+   "floor": 3,
+   "engine": "v6",
+   "move": "JRQJ",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 70,
+   "ms": 356.7
+  },
+  {
+   "start": 36,
+   "mover": "black",
+   "floor": 4,
+   "engine": "v4",
+   "move": "PJLP",
+   "score": 381,
+   "verdict": "quiet",
+   "nodes": 36525,
+   "ms": 18577.3
+  },
+  {
+   "start": 36,
+   "mover": "black",
+   "floor": 4,
+   "engine": "v5",
+   "move": "JRQJ",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 70,
+   "ms": 347.1
+  },
+  {
+   "start": 36,
+   "mover": "black",
+   "floor": 4,
+   "engine": "v6",
+   "move": "JRQJ",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 70,
+   "ms": 346.4
+  },
+  {
+   "start": 36,
+   "mover": "black",
+   "floor": 5,
+   "engine": "v4",
+   "move": "JNKO",
+   "score": 443,
+   "verdict": "quiet",
+   "nodes": 165004,
+   "ms": 92369.0
+  },
+  {
+   "start": 36,
+   "mover": "black",
+   "floor": 5,
+   "engine": "v5",
+   "move": "JRQJ",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 70,
+   "ms": 350.1
+  },
+  {
+   "start": 36,
+   "mover": "black",
+   "floor": 5,
+   "engine": "v6",
+   "move": "JRQJ",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 70,
+   "ms": 353.0
+  },
+  {
+   "start": 42,
+   "mover": "black",
+   "floor": 3,
+   "engine": "v4",
+   "move": "EMJP",
+   "score": 441,
+   "verdict": "quiet",
+   "nodes": 9689,
+   "ms": 5784.6
+  },
+  {
+   "start": 42,
+   "mover": "black",
+   "floor": 3,
+   "engine": "v5",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 42,
+   "mover": "black",
+   "floor": 3,
+   "engine": "v6",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 42,
+   "mover": "black",
+   "floor": 4,
+   "engine": "v4",
+   "move": "EMJP",
+   "score": -37,
+   "verdict": "quiet",
+   "nodes": 21386,
+   "ms": 11760.3
+  },
+  {
+   "start": 42,
+   "mover": "black",
+   "floor": 4,
+   "engine": "v5",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.9
+  },
+  {
+   "start": 42,
+   "mover": "black",
+   "floor": 4,
+   "engine": "v6",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 42,
+   "mover": "black",
+   "floor": 5,
+   "engine": "v4",
+   "move": "EMJP",
+   "score": 322,
+   "verdict": "quiet",
+   "nodes": 65161,
+   "ms": 38423.7
+  },
+  {
+   "start": 42,
+   "mover": "black",
+   "floor": 5,
+   "engine": "v5",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 42,
+   "mover": "black",
+   "floor": 5,
+   "engine": "v6",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 44,
+   "mover": "black",
+   "floor": 3,
+   "engine": "v4",
+   "move": "PJLP",
+   "score": 1961,
+   "verdict": "quiet",
+   "nodes": 4808,
+   "ms": 2767.9
+  },
+  {
+   "start": 44,
+   "mover": "black",
+   "floor": 3,
+   "engine": "v5",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 44,
+   "mover": "black",
+   "floor": 3,
+   "engine": "v6",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 44,
+   "mover": "black",
+   "floor": 4,
+   "engine": "v4",
+   "move": "HNPJ",
+   "score": 236,
+   "verdict": "quiet",
+   "nodes": 33345,
+   "ms": 19146.2
+  },
+  {
+   "start": 44,
+   "mover": "black",
+   "floor": 4,
+   "engine": "v5",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 44,
+   "mover": "black",
+   "floor": 4,
+   "engine": "v6",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 44,
+   "mover": "black",
+   "floor": 5,
+   "engine": "v4",
+   "move": "HNFK",
+   "score": 321,
+   "verdict": "quiet",
+   "nodes": 195267,
+   "ms": 113566.9
+  },
+  {
+   "start": 44,
+   "mover": "black",
+   "floor": 5,
+   "engine": "v5",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 44,
+   "mover": "black",
+   "floor": 5,
+   "engine": "v6",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 45,
+   "mover": "white",
+   "floor": 3,
+   "engine": "v4",
+   "move": "KQPG",
+   "score": -278,
+   "verdict": "quiet",
+   "nodes": 11979,
+   "ms": 6766.0
+  },
+  {
+   "start": 45,
+   "mover": "white",
+   "floor": 3,
+   "engine": "v5",
+   "move": "FKFJ",
+   "score": -20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 45,
+   "mover": "white",
+   "floor": 3,
+   "engine": "v6",
+   "move": "FKFJ",
+   "score": -20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 45,
+   "mover": "white",
+   "floor": 4,
+   "engine": "v4",
+   "move": "KQPG",
+   "score": 144,
+   "verdict": "quiet",
+   "nodes": 34302,
+   "ms": 19731.2
+  },
+  {
+   "start": 45,
+   "mover": "white",
+   "floor": 4,
+   "engine": "v5",
+   "move": "FKFJ",
+   "score": -20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 45,
+   "mover": "white",
+   "floor": 4,
+   "engine": "v6",
+   "move": "FKFJ",
+   "score": -20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 45,
+   "mover": "white",
+   "floor": 5,
+   "engine": "v4",
+   "move": "KQPG",
+   "score": 156,
+   "verdict": "quiet",
+   "nodes": 79670,
+   "ms": 47833.5
+  },
+  {
+   "start": 45,
+   "mover": "white",
+   "floor": 5,
+   "engine": "v5",
+   "move": "FKFJ",
+   "score": -20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.9
+  },
+  {
+   "start": 45,
+   "mover": "white",
+   "floor": 5,
+   "engine": "v6",
+   "move": "FKFJ",
+   "score": -20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 46,
+   "mover": "black",
+   "floor": 3,
+   "engine": "v4",
+   "move": "FOIM",
+   "score": 474,
+   "verdict": "quiet",
+   "nodes": 21722,
+   "ms": 12265.7
+  },
+  {
+   "start": 46,
+   "mover": "black",
+   "floor": 3,
+   "engine": "v5",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 46,
+   "mover": "black",
+   "floor": 3,
+   "engine": "v6",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.9
+  },
+  {
+   "start": 46,
+   "mover": "black",
+   "floor": 4,
+   "engine": "v4",
+   "move": "HNFO",
+   "score": -48,
+   "verdict": "quiet",
+   "nodes": 52325,
+   "ms": 29859.9
+  },
+  {
+   "start": 46,
+   "mover": "black",
+   "floor": 4,
+   "engine": "v5",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 46,
+   "mover": "black",
+   "floor": 4,
+   "engine": "v6",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 46,
+   "mover": "black",
+   "floor": 5,
+   "engine": "v4",
+   "move": "FOOH",
+   "score": 156,
+   "verdict": "quiet",
+   "nodes": 122407,
+   "ms": 68996.9
+  },
+  {
+   "start": 46,
+   "mover": "black",
+   "floor": 5,
+   "engine": "v5",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 46,
+   "mover": "black",
+   "floor": 5,
+   "engine": "v6",
+   "move": "IMJM",
+   "score": 20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 47,
+   "mover": "white",
+   "floor": 3,
+   "engine": "v4",
+   "move": "JMHO",
+   "score": -561,
+   "verdict": "quiet",
+   "nodes": 9514,
+   "ms": 5539.3
+  },
+  {
+   "start": 47,
+   "mover": "white",
+   "floor": 3,
+   "engine": "v5",
+   "move": "FKFJ",
+   "score": -20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 47,
+   "mover": "white",
+   "floor": 3,
+   "engine": "v6",
+   "move": "FKFJ",
+   "score": -20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 47,
+   "mover": "white",
+   "floor": 4,
+   "engine": "v4",
+   "move": "JMKP",
+   "score": -210,
+   "verdict": "quiet",
+   "nodes": 29801,
+   "ms": 16735.3
+  },
+  {
+   "start": 47,
+   "mover": "white",
+   "floor": 4,
+   "engine": "v5",
+   "move": "FKFJ",
+   "score": -20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 47,
+   "mover": "white",
+   "floor": 4,
+   "engine": "v6",
+   "move": "FKFJ",
+   "score": -20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 47,
+   "mover": "white",
+   "floor": 5,
+   "engine": "v4",
+   "move": "JMKP",
+   "score": -284,
+   "verdict": "quiet",
+   "nodes": 89361,
+   "ms": 53007.7
+  },
+  {
+   "start": 47,
+   "mover": "white",
+   "floor": 5,
+   "engine": "v5",
+   "move": "FKFJ",
+   "score": -20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  },
+  {
+   "start": 47,
+   "mover": "white",
+   "floor": 5,
+   "engine": "v6",
+   "move": "FKFJ",
+   "score": -20000,
+   "verdict": "mover-win",
+   "nodes": 1,
+   "ms": 0.8
+  }
+ ],
+ "configuration": {
+  "floor": 4,
+  "cap_from_start": 120,
+  "v6_jobs": 1,
+  "weights": "tuning/winner.json installed per search",
+  "book": "v4/v5/v6 consult the opening book first",
+  "starts": {
+   "flips": [
+    36,
+    42,
+    44,
+    45,
+    46,
+    47
+   ],
+   "bounds": [
+    3,
+    19,
+    21,
+    34,
+    37
+   ]
+  },
+  "pairings": {
+   "flips": [
+    [
+     "v4",
+     "v5"
+    ],
+    [
+     "v4",
+     "v6"
+    ],
+    [
+     "v5",
+     "v6"
+    ]
+   ],
+   "bounds": [
+    [
+     "v5",
+     "v6"
+    ]
+   ]
+  }
+ },
+ "games": [
+  {
+   "start": 3,
+   "mover_color": "white",
+   "mover_engine": "v5",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 17,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 195189,
+     "ms": 280635.68874800333,
+     "book_hits": 4
+    },
+    "v6": {
+     "nodes": 214838,
+     "ms": 297284.1968749999,
+     "book_hits": 4
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v5",
+     "msg": "KJJI",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 2,
+     "color": "black",
+     "engine": "v6",
+     "msg": "KILK",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 3,
+     "color": "white",
+     "engine": "v5",
+     "msg": "LIJL",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 4,
+     "color": "black",
+     "engine": "v6",
+     "msg": "IKLH",
+     "nodes": 0,
+     "ms": 0.1,
+     "score": null
+    },
+    {
+     "ply": 5,
+     "color": "white",
+     "engine": "v5",
+     "msg": "MGHL",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 6,
+     "color": "black",
+     "engine": "v6",
+     "msg": "JHMK",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 7,
+     "color": "white",
+     "engine": "v5",
+     "msg": "IGNL",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 8,
+     "color": "black",
+     "engine": "v6",
+     "msg": "KHMH",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 9,
+     "color": "white",
+     "engine": "v5",
+     "msg": "IHNH",
+     "nodes": 16796,
+     "ms": 22771.9,
+     "score": -253
+    },
+    {
+     "ply": 10,
+     "color": "black",
+     "engine": "v6",
+     "msg": "IFKL",
+     "nodes": 150331,
+     "ms": 196097.6,
+     "score": -207
+    },
+    {
+     "ply": 11,
+     "color": "white",
+     "engine": "v5",
+     "msg": "HGLF",
+     "nodes": 135816,
+     "ms": 189613.9,
+     "score": -399
+    },
+    {
+     "ply": 12,
+     "color": "black",
+     "engine": "v6",
+     "msg": "GFOI",
+     "nodes": 51338,
+     "ms": 83042.5,
+     "score": -399
+    },
+    {
+     "ply": 13,
+     "color": "white",
+     "engine": "v5",
+     "msg": "JGHI",
+     "nodes": 36632,
+     "ms": 49725.0,
+     "score": -20000
+    },
+    {
+     "ply": 14,
+     "color": "black",
+     "engine": "v6",
+     "msg": "KGKF",
+     "nodes": 10573,
+     "ms": 14570.5,
+     "score": -20000
+    },
+    {
+     "ply": 15,
+     "color": "white",
+     "engine": "v5",
+     "msg": "KEGG",
+     "nodes": 5944,
+     "ms": 18523.9,
+     "score": -20000
+    },
+    {
+     "ply": 16,
+     "color": "black",
+     "engine": "v6",
+     "msg": "FGEG",
+     "nodes": 2596,
+     "ms": 3573.5,
+     "score": -20000
+    },
+    {
+     "ply": 17,
+     "color": "white",
+     "engine": "v5",
+     "msg": "JDIC",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 3,
+   "mover_color": "white",
+   "mover_engine": "v6",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 17,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 92046,
+     "ms": 120634.26733300366,
+     "book_hits": 4
+    },
+    "v6": {
+     "nodes": 106912,
+     "ms": 152594.16816600788,
+     "book_hits": 4
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v6",
+     "msg": "KJJI",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 2,
+     "color": "black",
+     "engine": "v5",
+     "msg": "KILK",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 3,
+     "color": "white",
+     "engine": "v6",
+     "msg": "LIJL",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 4,
+     "color": "black",
+     "engine": "v5",
+     "msg": "IKLH",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 5,
+     "color": "white",
+     "engine": "v6",
+     "msg": "MGHL",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 6,
+     "color": "black",
+     "engine": "v5",
+     "msg": "JHMK",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 7,
+     "color": "white",
+     "engine": "v6",
+     "msg": "IGNL",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 8,
+     "color": "black",
+     "engine": "v5",
+     "msg": "KHMH",
+     "nodes": 0,
+     "ms": 0.0,
+     "score": null
+    },
+    {
+     "ply": 9,
+     "color": "white",
+     "engine": "v6",
+     "msg": "IHNH",
+     "nodes": 39899,
+     "ms": 50240.9,
+     "score": 140
+    },
+    {
+     "ply": 10,
+     "color": "black",
+     "engine": "v5",
+     "msg": "IFKL",
+     "nodes": 41495,
+     "ms": 54152.1,
+     "score": -207
+    },
+    {
+     "ply": 11,
+     "color": "white",
+     "engine": "v6",
+     "msg": "HGJG",
+     "nodes": 65275,
+     "ms": 85211.5,
+     "score": -186
+    },
+    {
+     "ply": 12,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GFKG",
+     "nodes": 50335,
+     "ms": 66156.9,
+     "score": -23
+    },
+    {
+     "ply": 13,
+     "color": "white",
+     "engine": "v6",
+     "msg": "KFHI",
+     "nodes": 91,
+     "ms": 130.7,
+     "score": -20000
+    },
+    {
+     "ply": 14,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GJLE",
+     "nodes": 111,
+     "ms": 148.4,
+     "score": -20000
+    },
+    {
+     "ply": 15,
+     "color": "white",
+     "engine": "v6",
+     "msg": "GGGI",
+     "nodes": 1646,
+     "ms": 17010.2,
+     "score": -20000
+    },
+    {
+     "ply": 16,
+     "color": "black",
+     "engine": "v5",
+     "msg": "FGEG",
+     "nodes": 105,
+     "ms": 176.8,
+     "score": -20000
+    },
+    {
+     "ply": 17,
+     "color": "white",
+     "engine": "v6",
+     "msg": "EIFI",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 19,
+   "mover_color": "white",
+   "mover_engine": "v5",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 23,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 298439,
+     "ms": 468762.8399189998,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1323474,
+     "ms": 1938593.095166012,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v5",
+     "msg": "MNLD",
+     "nodes": 44364,
+     "ms": 70276.0,
+     "score": -359
+    },
+    {
+     "ply": 2,
+     "color": "black",
+     "engine": "v6",
+     "msg": "MCMM",
+     "nodes": 110167,
+     "ms": 161748.3,
+     "score": 95
+    },
+    {
+     "ply": 3,
+     "color": "white",
+     "engine": "v5",
+     "msg": "MKOM",
+     "nodes": 28558,
+     "ms": 42740.7,
+     "score": 131
+    },
+    {
+     "ply": 4,
+     "color": "black",
+     "engine": "v6",
+     "msg": "OKNL",
+     "nodes": 232154,
+     "ms": 373540.9,
+     "score": 216
+    },
+    {
+     "ply": 5,
+     "color": "white",
+     "engine": "v5",
+     "msg": "LNPJ",
+     "nodes": 17732,
+     "ms": 26856.2,
+     "score": 153
+    },
+    {
+     "ply": 6,
+     "color": "black",
+     "engine": "v6",
+     "msg": "NNHK",
+     "nodes": 36704,
+     "ms": 62677.7,
+     "score": -203
+    },
+    {
+     "ply": 7,
+     "color": "white",
+     "engine": "v5",
+     "msg": "GKMF",
+     "nodes": 14983,
+     "ms": 26521.1,
+     "score": 138
+    },
+    {
+     "ply": 8,
+     "color": "black",
+     "engine": "v6",
+     "msg": "KMHL",
+     "nodes": 107968,
+     "ms": 159104.0,
+     "score": -246
+    },
+    {
+     "ply": 9,
+     "color": "white",
+     "engine": "v5",
+     "msg": "JMHM",
+     "nodes": 24868,
+     "ms": 44639.4,
+     "score": 101
+    },
+    {
+     "ply": 10,
+     "color": "black",
+     "engine": "v6",
+     "msg": "GMNF",
+     "nodes": 109521,
+     "ms": 177185.5,
+     "score": -259
+    },
+    {
+     "ply": 11,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FNOO",
+     "nodes": 26526,
+     "ms": 46790.3,
+     "score": 78
+    },
+    {
+     "ply": 12,
+     "color": "black",
+     "engine": "v6",
+     "msg": "NOGL",
+     "nodes": 86090,
+     "ms": 131436.2,
+     "score": -298
+    },
+    {
+     "ply": 13,
+     "color": "white",
+     "engine": "v5",
+     "msg": "NPFM",
+     "nodes": 23960,
+     "ms": 40154.5,
+     "score": -9
+    },
+    {
+     "ply": 14,
+     "color": "black",
+     "engine": "v6",
+     "msg": "FLIL",
+     "nodes": 190965,
+     "ms": 286014.8,
+     "score": -207
+    },
+    {
+     "ply": 15,
+     "color": "white",
+     "engine": "v5",
+     "msg": "ELMQ",
+     "nodes": 34178,
+     "ms": 56550.7,
+     "score": 34
+    },
+    {
+     "ply": 16,
+     "color": "black",
+     "engine": "v6",
+     "msg": "PNON",
+     "nodes": 346364,
+     "ms": 456657.2,
+     "score": -169
+    },
+    {
+     "ply": 17,
+     "color": "white",
+     "engine": "v5",
+     "msg": "GNLE",
+     "nodes": 42387,
+     "ms": 49802.8,
+     "score": -184
+    },
+    {
+     "ply": 18,
+     "color": "black",
+     "engine": "v6",
+     "msg": "NEDK",
+     "nodes": 84551,
+     "ms": 111277.1,
+     "score": -419
+    },
+    {
+     "ply": 19,
+     "color": "white",
+     "engine": "v5",
+     "msg": "HOKD",
+     "nodes": 39341,
+     "ms": 52340.7,
+     "score": -20000
+    },
+    {
+     "ply": 20,
+     "color": "black",
+     "engine": "v6",
+     "msg": "IPJQ",
+     "nodes": 16752,
+     "ms": 16597.1,
+     "score": -20000
+    },
+    {
+     "ply": 21,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FKNG",
+     "nodes": 1541,
+     "ms": 12089.5,
+     "score": -20000
+    },
+    {
+     "ply": 22,
+     "color": "black",
+     "engine": "v6",
+     "msg": "OHJC",
+     "nodes": 2238,
+     "ms": 2354.4,
+     "score": -20000
+    },
+    {
+     "ply": 23,
+     "color": "white",
+     "engine": "v5",
+     "msg": "GJHI",
+     "nodes": 1,
+     "ms": 1.0,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 19,
+   "mover_color": "white",
+   "mover_engine": "v6",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 17,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 347063,
+     "ms": 699163.4491229962,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 724339,
+     "ms": 1168758.1345859983,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v6",
+     "msg": "MKLD",
+     "nodes": 48876,
+     "ms": 68308.9,
+     "score": -67
+    },
+    {
+     "ply": 2,
+     "color": "black",
+     "engine": "v5",
+     "msg": "OKMC",
+     "nodes": 21060,
+     "ms": 31085.0,
+     "score": 63
+    },
+    {
+     "ply": 3,
+     "color": "white",
+     "engine": "v6",
+     "msg": "MNNJ",
+     "nodes": 64091,
+     "ms": 93641.6,
+     "score": 28
+    },
+    {
+     "ply": 4,
+     "color": "black",
+     "engine": "v5",
+     "msg": "MMNL",
+     "nodes": 26006,
+     "ms": 36771.1,
+     "score": -241
+    },
+    {
+     "ply": 5,
+     "color": "white",
+     "engine": "v6",
+     "msg": "KMLN",
+     "nodes": 128750,
+     "ms": 207893.0,
+     "score": 18
+    },
+    {
+     "ply": 6,
+     "color": "black",
+     "engine": "v5",
+     "msg": "OMPJ",
+     "nodes": 53988,
+     "ms": 89689.8,
+     "score": 33
+    },
+    {
+     "ply": 7,
+     "color": "white",
+     "engine": "v6",
+     "msg": "QIPM",
+     "nodes": 49407,
+     "ms": 78967.6,
+     "score": -301
+    },
+    {
+     "ply": 8,
+     "color": "black",
+     "engine": "v5",
+     "msg": "LLMO",
+     "nodes": 82415,
+     "ms": 214736.4,
+     "score": -394
+    },
+    {
+     "ply": 9,
+     "color": "white",
+     "engine": "v6",
+     "msg": "NNLE",
+     "nodes": 69699,
+     "ms": 101989.9,
+     "score": -316
+    },
+    {
+     "ply": 10,
+     "color": "black",
+     "engine": "v5",
+     "msg": "KNNE",
+     "nodes": 29480,
+     "ms": 68037.5,
+     "score": -113
+    },
+    {
+     "ply": 11,
+     "color": "white",
+     "engine": "v6",
+     "msg": "JEMF",
+     "nodes": 363244,
+     "ms": 615630.4,
+     "score": -543
+    },
+    {
+     "ply": 12,
+     "color": "black",
+     "engine": "v5",
+     "msg": "IENG",
+     "nodes": 33013,
+     "ms": 120069.3,
+     "score": -543
+    },
+    {
+     "ply": 13,
+     "color": "white",
+     "engine": "v6",
+     "msg": "ONMI",
+     "nodes": 215,
+     "ms": 1848.3,
+     "score": -20000
+    },
+    {
+     "ply": 14,
+     "color": "black",
+     "engine": "v5",
+     "msg": "PNMG",
+     "nodes": 31097,
+     "ms": 48726.6,
+     "score": -261
+    },
+    {
+     "ply": 15,
+     "color": "white",
+     "engine": "v6",
+     "msg": "NFJB",
+     "nodes": 56,
+     "ms": 477.6,
+     "score": -20000
+    },
+    {
+     "ply": 16,
+     "color": "black",
+     "engine": "v5",
+     "msg": "KCOG",
+     "nodes": 70004,
+     "ms": 90047.8,
+     "score": -8
+    },
+    {
+     "ply": 17,
+     "color": "white",
+     "engine": "v6",
+     "msg": "JDJC",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 21,
+   "mover_color": "white",
+   "mover_engine": "v5",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 22,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 320956,
+     "ms": 593157.0932489957,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 706059,
+     "ms": 1159212.2852920075,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v5",
+     "msg": "MKLD",
+     "nodes": 39651,
+     "ms": 68391.5,
+     "score": -618
+    },
+    {
+     "ply": 2,
+     "color": "black",
+     "engine": "v6",
+     "msg": "OKMC",
+     "nodes": 71631,
+     "ms": 109927.4,
+     "score": -527
+    },
+    {
+     "ply": 3,
+     "color": "white",
+     "engine": "v5",
+     "msg": "MMNL",
+     "nodes": 29100,
+     "ms": 44892.3,
+     "score": -138
+    },
+    {
+     "ply": 4,
+     "color": "black",
+     "engine": "v6",
+     "msg": "MONI",
+     "nodes": 86563,
+     "ms": 134749.6,
+     "score": -193
+    },
+    {
+     "ply": 5,
+     "color": "white",
+     "engine": "v5",
+     "msg": "LLNJ",
+     "nodes": 42363,
+     "ms": 64411.0,
+     "score": -170
+    },
+    {
+     "ply": 6,
+     "color": "black",
+     "engine": "v6",
+     "msg": "KMMI",
+     "nodes": 50581,
+     "ms": 76806.7,
+     "score": -299
+    },
+    {
+     "ply": 7,
+     "color": "white",
+     "engine": "v5",
+     "msg": "NNOL",
+     "nodes": 53808,
+     "ms": 98478.4,
+     "score": -680
+    },
+    {
+     "ply": 8,
+     "color": "black",
+     "engine": "v6",
+     "msg": "OOPL",
+     "nodes": 44661,
+     "ms": 77886.8,
+     "score": -415
+    },
+    {
+     "ply": 9,
+     "color": "white",
+     "engine": "v5",
+     "msg": "LNNF",
+     "nodes": 27521,
+     "ms": 46599.4,
+     "score": -142
+    },
+    {
+     "ply": 10,
+     "color": "black",
+     "engine": "v6",
+     "msg": "OION",
+     "nodes": 40843,
+     "ms": 64791.0,
+     "score": -236
+    },
+    {
+     "ply": 11,
+     "color": "white",
+     "engine": "v5",
+     "msg": "PIHI",
+     "nodes": 13067,
+     "ms": 23569.3,
+     "score": -236
+    },
+    {
+     "ply": 12,
+     "color": "black",
+     "engine": "v6",
+     "msg": "KNKO",
+     "nodes": 147160,
+     "ms": 248200.8,
+     "score": 36
+    },
+    {
+     "ply": 13,
+     "color": "white",
+     "engine": "v5",
+     "msg": "KPOG",
+     "nodes": 35723,
+     "ms": 66557.3,
+     "score": -12
+    },
+    {
+     "ply": 14,
+     "color": "black",
+     "engine": "v6",
+     "msg": "PHKC",
+     "nodes": 71508,
+     "ms": 119004.8,
+     "score": -328
+    },
+    {
+     "ply": 15,
+     "color": "white",
+     "engine": "v5",
+     "msg": "GJOJ",
+     "nodes": 19161,
+     "ms": 34617.2,
+     "score": 48
+    },
+    {
+     "ply": 16,
+     "color": "black",
+     "engine": "v6",
+     "msg": "QHFK",
+     "nodes": 171697,
+     "ms": 286558.1,
+     "score": -223
+    },
+    {
+     "ply": 17,
+     "color": "white",
+     "engine": "v5",
+     "msg": "PGOF",
+     "nodes": 60366,
+     "ms": 145411.7,
+     "score": 160
+    },
+    {
+     "ply": 18,
+     "color": "black",
+     "engine": "v6",
+     "msg": "LONO",
+     "nodes": 21341,
+     "ms": 41169.7,
+     "score": 20000
+    },
+    {
+     "ply": 19,
+     "color": "white",
+     "engine": "v5",
+     "msg": "JOPO",
+     "nodes": 102,
+     "ms": 130.7,
+     "score": 20000
+    },
+    {
+     "ply": 20,
+     "color": "black",
+     "engine": "v6",
+     "msg": "JMMP",
+     "nodes": 73,
+     "ms": 116.3,
+     "score": 20000
+    },
+    {
+     "ply": 21,
+     "color": "white",
+     "engine": "v5",
+     "msg": "ILHK",
+     "nodes": 94,
+     "ms": 98.3,
+     "score": 20000
+    },
+    {
+     "ply": 22,
+     "color": "black",
+     "engine": "v6",
+     "msg": "ORNQ",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 21,
+   "mover_color": "white",
+   "mover_engine": "v6",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 53,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 1034627,
+     "ms": 1330415.171666005,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 2732908,
+     "ms": 3430225.4767520023,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v6",
+     "msg": "MKLD",
+     "nodes": 227274,
+     "ms": 337785.8,
+     "score": -618
+    },
+    {
+     "ply": 2,
+     "color": "black",
+     "engine": "v5",
+     "msg": "OKMC",
+     "nodes": 22980,
+     "ms": 34935.2,
+     "score": 14
+    },
+    {
+     "ply": 3,
+     "color": "white",
+     "engine": "v6",
+     "msg": "MMNL",
+     "nodes": 78377,
+     "ms": 119528.4,
+     "score": -138
+    },
+    {
+     "ply": 4,
+     "color": "black",
+     "engine": "v5",
+     "msg": "MONI",
+     "nodes": 63677,
+     "ms": 95204.6,
+     "score": -193
+    },
+    {
+     "ply": 5,
+     "color": "white",
+     "engine": "v6",
+     "msg": "LLNJ",
+     "nodes": 122407,
+     "ms": 191970.4,
+     "score": -170
+    },
+    {
+     "ply": 6,
+     "color": "black",
+     "engine": "v5",
+     "msg": "NNKM",
+     "nodes": 28897,
+     "ms": 44233.2,
+     "score": 48
+    },
+    {
+     "ply": 7,
+     "color": "white",
+     "engine": "v6",
+     "msg": "LNHI",
+     "nodes": 40761,
+     "ms": 62178.6,
+     "score": 48
+    },
+    {
+     "ply": 8,
+     "color": "black",
+     "engine": "v5",
+     "msg": "OLMI",
+     "nodes": 21276,
+     "ms": 37793.9,
+     "score": 29
+    },
+    {
+     "ply": 9,
+     "color": "white",
+     "engine": "v6",
+     "msg": "GJKO",
+     "nodes": 175193,
+     "ms": 282990.6,
+     "score": -394
+    },
+    {
+     "ply": 10,
+     "color": "black",
+     "engine": "v5",
+     "msg": "FKJP",
+     "nodes": 126892,
+     "ms": 206525.9,
+     "score": -53
+    },
+    {
+     "ply": 11,
+     "color": "white",
+     "engine": "v6",
+     "msg": "OMNF",
+     "nodes": 150425,
+     "ms": 234909.8,
+     "score": 93
+    },
+    {
+     "ply": 12,
+     "color": "black",
+     "engine": "v5",
+     "msg": "OIOJ",
+     "nodes": 19883,
+     "ms": 31022.2,
+     "score": -14
+    },
+    {
+     "ply": 13,
+     "color": "white",
+     "engine": "v6",
+     "msg": "PIOG",
+     "nodes": 92349,
+     "ms": 132142.2,
+     "score": 33
+    },
+    {
+     "ply": 14,
+     "color": "black",
+     "engine": "v5",
+     "msg": "PHKC",
+     "nodes": 23642,
+     "ms": 31017.1,
+     "score": 33
+    },
+    {
+     "ply": 15,
+     "color": "white",
+     "engine": "v6",
+     "msg": "GHHJ",
+     "nodes": 70621,
+     "ms": 86546.5,
+     "score": 47
+    },
+    {
+     "ply": 16,
+     "color": "black",
+     "engine": "v5",
+     "msg": "FJHK",
+     "nodes": 27869,
+     "ms": 31423.7,
+     "score": -97
+    },
+    {
+     "ply": 17,
+     "color": "white",
+     "engine": "v6",
+     "msg": "GKGI",
+     "nodes": 40686,
+     "ms": 44711.2,
+     "score": -10
+    },
+    {
+     "ply": 18,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GLFG",
+     "nodes": 12208,
+     "ms": 15359.8,
+     "score": -32
+    },
+    {
+     "ply": 19,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FIFL",
+     "nodes": 325801,
+     "ms": 364168.7,
+     "score": -287
+    },
+    {
+     "ply": 20,
+     "color": "black",
+     "engine": "v5",
+     "msg": "EIEM",
+     "nodes": 38513,
+     "ms": 37885.3,
+     "score": 6
+    },
+    {
+     "ply": 21,
+     "color": "white",
+     "engine": "v6",
+     "msg": "PNHL",
+     "nodes": 42415,
+     "ms": 36270.0,
+     "score": 358
+    },
+    {
+     "ply": 22,
+     "color": "black",
+     "engine": "v5",
+     "msg": "QOEJ",
+     "nodes": 13028,
+     "ms": 12757.0,
+     "score": 138
+    },
+    {
+     "ply": 23,
+     "color": "white",
+     "engine": "v6",
+     "msg": "HMEH",
+     "nodes": 111489,
+     "ms": 109267.4,
+     "score": 592
+    },
+    {
+     "ply": 24,
+     "color": "black",
+     "engine": "v5",
+     "msg": "FHLC",
+     "nodes": 70157,
+     "ms": 60337.2,
+     "score": 357
+    },
+    {
+     "ply": 25,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DJNC",
+     "nodes": 48620,
+     "ms": 47477.4,
+     "score": 315
+    },
+    {
+     "ply": 26,
+     "color": "black",
+     "engine": "v5",
+     "msg": "JCEK",
+     "nodes": 59323,
+     "ms": 72535.3,
+     "score": 584
+    },
+    {
+     "ply": 27,
+     "color": "white",
+     "engine": "v6",
+     "msg": "ELIC",
+     "nodes": 75569,
+     "ms": 67693.6,
+     "score": 349
+    },
+    {
+     "ply": 28,
+     "color": "black",
+     "engine": "v5",
+     "msg": "HFFF",
+     "nodes": 20857,
+     "ms": 19837.7,
+     "score": 154
+    },
+    {
+     "ply": 29,
+     "color": "white",
+     "engine": "v6",
+     "msg": "IEFM",
+     "nodes": 65076,
+     "ms": 66137.6,
+     "score": 68
+    },
+    {
+     "ply": 30,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GFDG",
+     "nodes": 16073,
+     "ms": 22339.1,
+     "score": 117
+    },
+    {
+     "ply": 31,
+     "color": "white",
+     "engine": "v6",
+     "msg": "EFDI",
+     "nodes": 50882,
+     "ms": 75116.5,
+     "score": 165
+    },
+    {
+     "ply": 32,
+     "color": "black",
+     "engine": "v5",
+     "msg": "FEEE",
+     "nodes": 16082,
+     "ms": 22856.1,
+     "score": 167
+    },
+    {
+     "ply": 33,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FDDD",
+     "nodes": 96480,
+     "ms": 90482.8,
+     "score": 376
+    },
+    {
+     "ply": 34,
+     "color": "black",
+     "engine": "v5",
+     "msg": "EGDL",
+     "nodes": 16100,
+     "ms": 21738.7,
+     "score": 100
+    },
+    {
+     "ply": 35,
+     "color": "white",
+     "engine": "v6",
+     "msg": "CGED",
+     "nodes": 84063,
+     "ms": 80003.9,
+     "score": 408
+    },
+    {
+     "ply": 36,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GDPK",
+     "nodes": 38174,
+     "ms": 39984.1,
+     "score": 40
+    },
+    {
+     "ply": 37,
+     "color": "white",
+     "engine": "v6",
+     "msg": "CDCM",
+     "nodes": 213285,
+     "ms": 387925.2,
+     "score": 227
+    },
+    {
+     "ply": 38,
+     "color": "black",
+     "engine": "v5",
+     "msg": "BDKD",
+     "nodes": 40453,
+     "ms": 135698.7,
+     "score": 104
+    },
+    {
+     "ply": 39,
+     "color": "white",
+     "engine": "v6",
+     "msg": "MBGE",
+     "nodes": 66630,
+     "ms": 79666.1,
+     "score": 250
+    },
+    {
+     "ply": 40,
+     "color": "black",
+     "engine": "v5",
+     "msg": "CFCE",
+     "nodes": 53630,
+     "ms": 58784.8,
+     "score": -29
+    },
+    {
+     "ply": 41,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DFCK",
+     "nodes": 115657,
+     "ms": 110804.0,
+     "score": -16
+    },
+    {
+     "ply": 42,
+     "color": "black",
+     "engine": "v5",
+     "msg": "DEFN",
+     "nodes": 42633,
+     "ms": 49031.5,
+     "score": -125
+    },
+    {
+     "ply": 43,
+     "color": "white",
+     "engine": "v6",
+     "msg": "BEMD",
+     "nodes": 53439,
+     "ms": 56625.9,
+     "score": 59
+    },
+    {
+     "ply": 44,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GOHN",
+     "nodes": 87567,
+     "ms": 93560.8,
+     "score": 197
+    },
+    {
+     "ply": 45,
+     "color": "white",
+     "engine": "v6",
+     "msg": "HPCL",
+     "nodes": 65686,
+     "ms": 64590.8,
+     "score": 276
+    },
+    {
+     "ply": 46,
+     "color": "black",
+     "engine": "v5",
+     "msg": "CNHE",
+     "nodes": 70882,
+     "ms": 66002.2,
+     "score": -1
+    },
+    {
+     "ply": 47,
+     "color": "white",
+     "engine": "v6",
+     "msg": "IDGN",
+     "nodes": 173657,
+     "ms": 182587.4,
+     "score": 76
+    },
+    {
+     "ply": 48,
+     "color": "black",
+     "engine": "v5",
+     "msg": "QJFC",
+     "nodes": 56049,
+     "ms": 49962.0,
+     "score": 159
+    },
+    {
+     "ply": 49,
+     "color": "white",
+     "engine": "v6",
+     "msg": "EBRI",
+     "nodes": 105400,
+     "ms": 87111.6,
+     "score": 228
+    },
+    {
+     "ply": 50,
+     "color": "black",
+     "engine": "v5",
+     "msg": "QLCJ",
+     "nodes": 16641,
+     "ms": 13823.8,
+     "score": 23
+    },
+    {
+     "ply": 51,
+     "color": "white",
+     "engine": "v6",
+     "msg": "RMLP",
+     "nodes": 40665,
+     "ms": 31532.2,
+     "score": 78
+    },
+    {
+     "ply": 52,
+     "color": "black",
+     "engine": "v5",
+     "msg": "MGNG",
+     "nodes": 31141,
+     "ms": 25765.4,
+     "score": -58
+    },
+    {
+     "ply": 53,
+     "color": "white",
+     "engine": "v6",
+     "msg": "JNIM",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 34,
+   "mover_color": "black",
+   "mover_engine": "v5",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 99,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 2403558,
+     "ms": 2307380.7585809957,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 5185708,
+     "ms": 4909063.591127006,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v5",
+     "msg": "QJLP",
+     "nodes": 221762,
+     "ms": 328587.6,
+     "score": 165
+    },
+    {
+     "ply": 2,
+     "color": "white",
+     "engine": "v6",
+     "msg": "KQRI",
+     "nodes": 113059,
+     "ms": 201473.7,
+     "score": 626
+    },
+    {
+     "ply": 3,
+     "color": "black",
+     "engine": "v5",
+     "msg": "PIOH",
+     "nodes": 38995,
+     "ms": 69085.4,
+     "score": 2
+    },
+    {
+     "ply": 4,
+     "color": "white",
+     "engine": "v6",
+     "msg": "KORK",
+     "nodes": 125925,
+     "ms": 215331.8,
+     "score": 255
+    },
+    {
+     "ply": 5,
+     "color": "black",
+     "engine": "v5",
+     "msg": "JPHJ",
+     "nodes": 14672,
+     "ms": 23667.3,
+     "score": 225
+    },
+    {
+     "ply": 6,
+     "color": "white",
+     "engine": "v6",
+     "msg": "PJQH",
+     "nodes": 178268,
+     "ms": 326639.1,
+     "score": 451
+    },
+    {
+     "ply": 7,
+     "color": "black",
+     "engine": "v5",
+     "msg": "ILKP",
+     "nodes": 15057,
+     "ms": 23403.0,
+     "score": 641
+    },
+    {
+     "ply": 8,
+     "color": "white",
+     "engine": "v6",
+     "msg": "JMIP",
+     "nodes": 54603,
+     "ms": 87060.7,
+     "score": 583
+    },
+    {
+     "ply": 9,
+     "color": "black",
+     "engine": "v5",
+     "msg": "HLGI",
+     "nodes": 101366,
+     "ms": 188307.7,
+     "score": 1196
+    },
+    {
+     "ply": 10,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FIGM",
+     "nodes": 81475,
+     "ms": 139811.0,
+     "score": 1196
+    },
+    {
+     "ply": 11,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GHHM",
+     "nodes": 47152,
+     "ms": 100698.3,
+     "score": 1366
+    },
+    {
+     "ply": 12,
+     "color": "white",
+     "engine": "v6",
+     "msg": "GFHN",
+     "nodes": 103702,
+     "ms": 163333.6,
+     "score": 872
+    },
+    {
+     "ply": 13,
+     "color": "black",
+     "engine": "v5",
+     "msg": "FHGN",
+     "nodes": 41458,
+     "ms": 56046.3,
+     "score": 717
+    },
+    {
+     "ply": 14,
+     "color": "white",
+     "engine": "v6",
+     "msg": "EGFO",
+     "nodes": 39290,
+     "ms": 49525.9,
+     "score": 447
+    },
+    {
+     "ply": 15,
+     "color": "black",
+     "engine": "v5",
+     "msg": "EHFF",
+     "nodes": 77946,
+     "ms": 98365.1,
+     "score": 474
+    },
+    {
+     "ply": 16,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DHGL",
+     "nodes": 118930,
+     "ms": 155177.8,
+     "score": 615
+    },
+    {
+     "ply": 17,
+     "color": "black",
+     "engine": "v5",
+     "msg": "FEFJ",
+     "nodes": 26346,
+     "ms": 40284.0,
+     "score": 668
+    },
+    {
+     "ply": 18,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FGHF",
+     "nodes": 149974,
+     "ms": 160141.8,
+     "score": 564
+    },
+    {
+     "ply": 19,
+     "color": "black",
+     "engine": "v5",
+     "msg": "EEMI",
+     "nodes": 19737,
+     "ms": 30161.6,
+     "score": 623
+    },
+    {
+     "ply": 20,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DDMF",
+     "nodes": 87185,
+     "ms": 99409.1,
+     "score": 524
+    },
+    {
+     "ply": 21,
+     "color": "black",
+     "engine": "v5",
+     "msg": "EJEK",
+     "nodes": 21263,
+     "ms": 32167.1,
+     "score": 524
+    },
+    {
+     "ply": 22,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DJDL",
+     "nodes": 64692,
+     "ms": 70316.9,
+     "score": 283
+    },
+    {
+     "ply": 23,
+     "color": "black",
+     "engine": "v5",
+     "msg": "OGGE",
+     "nodes": 20225,
+     "ms": 31682.7,
+     "score": 202
+    },
+    {
+     "ply": 24,
+     "color": "white",
+     "engine": "v6",
+     "msg": "PFHE",
+     "nodes": 69851,
+     "ms": 67105.3,
+     "score": -19
+    },
+    {
+     "ply": 25,
+     "color": "black",
+     "engine": "v5",
+     "msg": "EIMP",
+     "nodes": 26895,
+     "ms": 25728.7,
+     "score": 158
+    },
+    {
+     "ply": 26,
+     "color": "white",
+     "engine": "v6",
+     "msg": "ELNP",
+     "nodes": 79502,
+     "ms": 75671.6,
+     "score": -53
+    },
+    {
+     "ply": 27,
+     "color": "black",
+     "engine": "v5",
+     "msg": "IDHD",
+     "nodes": 103402,
+     "ms": 103491.6,
+     "score": -53
+    },
+    {
+     "ply": 28,
+     "color": "white",
+     "engine": "v6",
+     "msg": "IMFL",
+     "nodes": 249306,
+     "ms": 221767.4,
+     "score": -56
+    },
+    {
+     "ply": 29,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GOCL",
+     "nodes": 125808,
+     "ms": 108337.7,
+     "score": 103
+    },
+    {
+     "ply": 30,
+     "color": "white",
+     "engine": "v6",
+     "msg": "HCKD",
+     "nodes": 251593,
+     "ms": 510792.3,
+     "score": 103
+    },
+    {
+     "ply": 31,
+     "color": "black",
+     "engine": "v5",
+     "msg": "IOIN",
+     "nodes": 89825,
+     "ms": 82615.9,
+     "score": -58
+    },
+    {
+     "ply": 32,
+     "color": "white",
+     "engine": "v6",
+     "msg": "ICRJ",
+     "nodes": 170797,
+     "ms": 147809.8,
+     "score": -166
+    },
+    {
+     "ply": 33,
+     "color": "black",
+     "engine": "v5",
+     "msg": "RLGC",
+     "nodes": 73938,
+     "ms": 71660.4,
+     "score": -262
+    },
+    {
+     "ply": 34,
+     "color": "white",
+     "engine": "v6",
+     "msg": "RHNG",
+     "nodes": 57315,
+     "ms": 62726.0,
+     "score": -112
+    },
+    {
+     "ply": 35,
+     "color": "black",
+     "engine": "v5",
+     "msg": "RGJC",
+     "nodes": 32134,
+     "ms": 28255.7,
+     "score": 25
+    },
+    {
+     "ply": 36,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DEFD",
+     "nodes": 96971,
+     "ms": 86733.6,
+     "score": 25
+    },
+    {
+     "ply": 37,
+     "color": "black",
+     "engine": "v5",
+     "msg": "DGDF",
+     "nodes": 29908,
+     "ms": 27909.3,
+     "score": -205
+    },
+    {
+     "ply": 38,
+     "color": "white",
+     "engine": "v6",
+     "msg": "JOED",
+     "nodes": 50779,
+     "ms": 42104.8,
+     "score": -103
+    },
+    {
+     "ply": 39,
+     "color": "black",
+     "engine": "v5",
+     "msg": "CDFC",
+     "nodes": 29091,
+     "ms": 23013.6,
+     "score": -58
+    },
+    {
+     "ply": 40,
+     "color": "white",
+     "engine": "v6",
+     "msg": "MDEM",
+     "nodes": 421890,
+     "ms": 324019.9,
+     "score": -193
+    },
+    {
+     "ply": 41,
+     "color": "black",
+     "engine": "v5",
+     "msg": "NDEF",
+     "nodes": 17790,
+     "ms": 20812.6,
+     "score": -193
+    },
+    {
+     "ply": 42,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DNDK",
+     "nodes": 91099,
+     "ms": 72544.4,
+     "score": -86
+    },
+    {
+     "ply": 43,
+     "color": "black",
+     "engine": "v5",
+     "msg": "DMCO",
+     "nodes": 20367,
+     "ms": 14956.9,
+     "score": 48
+    },
+    {
+     "ply": 44,
+     "color": "white",
+     "engine": "v6",
+     "msg": "CNCM",
+     "nodes": 101693,
+     "ms": 73059.2,
+     "score": 63
+    },
+    {
+     "ply": 45,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GDNF",
+     "nodes": 82953,
+     "ms": 59901.1,
+     "score": 198
+    },
+    {
+     "ply": 46,
+     "color": "white",
+     "engine": "v6",
+     "msg": "CHPM",
+     "nodes": 162304,
+     "ms": 109114.1,
+     "score": -155
+    },
+    {
+     "ply": 47,
+     "color": "black",
+     "engine": "v5",
+     "msg": "NCCF",
+     "nodes": 67799,
+     "ms": 47244.1,
+     "score": 197
+    },
+    {
+     "ply": 48,
+     "color": "white",
+     "engine": "v6",
+     "msg": "NBBF",
+     "nodes": 75867,
+     "ms": 51337.6,
+     "score": 122
+    },
+    {
+     "ply": 49,
+     "color": "black",
+     "engine": "v5",
+     "msg": "ENPN",
+     "nodes": 33978,
+     "ms": 23890.4,
+     "score": -136
+    },
+    {
+     "ply": 50,
+     "color": "white",
+     "engine": "v6",
+     "msg": "OCBL",
+     "nodes": 65278,
+     "ms": 43832.8,
+     "score": 93
+    },
+    {
+     "ply": 51,
+     "color": "black",
+     "engine": "v5",
+     "msg": "EOFM",
+     "nodes": 54369,
+     "ms": 34016.2,
+     "score": 123
+    },
+    {
+     "ply": 52,
+     "color": "white",
+     "engine": "v6",
+     "msg": "MGQI",
+     "nodes": 36741,
+     "ms": 21491.6,
+     "score": 118
+    },
+    {
+     "ply": 53,
+     "color": "black",
+     "engine": "v5",
+     "msg": "QGEP",
+     "nodes": 21990,
+     "ms": 14755.5,
+     "score": -77
+    },
+    {
+     "ply": 54,
+     "color": "white",
+     "engine": "v6",
+     "msg": "QLDP",
+     "nodes": 42670,
+     "ms": 27610.9,
+     "score": 124
+    },
+    {
+     "ply": 55,
+     "color": "black",
+     "engine": "v5",
+     "msg": "NOFN",
+     "nodes": 69022,
+     "ms": 47831.1,
+     "score": 99
+    },
+    {
+     "ply": 56,
+     "color": "white",
+     "engine": "v6",
+     "msg": "EQMB",
+     "nodes": 57754,
+     "ms": 41232.8,
+     "score": 77
+    },
+    {
+     "ply": 57,
+     "color": "black",
+     "engine": "v5",
+     "msg": "OOLB",
+     "nodes": 68900,
+     "ms": 46178.4,
+     "score": 70
+    },
+    {
+     "ply": 58,
+     "color": "white",
+     "engine": "v6",
+     "msg": "POPP",
+     "nodes": 47518,
+     "ms": 32353.9,
+     "score": 58
+    },
+    {
+     "ply": 59,
+     "color": "black",
+     "engine": "v5",
+     "msg": "OPOB",
+     "nodes": 17032,
+     "ms": 11819.5,
+     "score": -128
+    },
+    {
+     "ply": 60,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DOBE",
+     "nodes": 202674,
+     "ms": 137740.7,
+     "score": -130
+    },
+    {
+     "ply": 61,
+     "color": "black",
+     "engine": "v5",
+     "msg": "DQBD",
+     "nodes": 16375,
+     "ms": 10470.2,
+     "score": -116
+    },
+    {
+     "ply": 62,
+     "color": "white",
+     "engine": "v6",
+     "msg": "CEBM",
+     "nodes": 38896,
+     "ms": 24488.2,
+     "score": 20
+    },
+    {
+     "ply": 63,
+     "color": "black",
+     "engine": "v5",
+     "msg": "ECMA",
+     "nodes": 16463,
+     "ms": 10223.0,
+     "score": -135
+    },
+    {
+     "ply": 64,
+     "color": "white",
+     "engine": "v6",
+     "msg": "BNBK",
+     "nodes": 39243,
+     "ms": 24521.0,
+     "score": -47
+    },
+    {
+     "ply": 65,
+     "color": "black",
+     "engine": "v5",
+     "msg": "BJBO",
+     "nodes": 21875,
+     "ms": 14310.3,
+     "score": 104
+    },
+    {
+     "ply": 66,
+     "color": "white",
+     "engine": "v6",
+     "msg": "JNHQ",
+     "nodes": 67031,
+     "ms": 44784.9,
+     "score": 130
+    },
+    {
+     "ply": 67,
+     "color": "black",
+     "engine": "v5",
+     "msg": "IQJQ",
+     "nodes": 18760,
+     "ms": 11860.9,
+     "score": 25
+    },
+    {
+     "ply": 68,
+     "color": "white",
+     "engine": "v6",
+     "msg": "GRLQ",
+     "nodes": 91667,
+     "ms": 64417.9,
+     "score": -34
+    },
+    {
+     "ply": 69,
+     "color": "black",
+     "engine": "v5",
+     "msg": "FSNA",
+     "nodes": 12444,
+     "ms": 8559.7,
+     "score": -53
+    },
+    {
+     "ply": 70,
+     "color": "white",
+     "engine": "v6",
+     "msg": "HPHR",
+     "nodes": 41570,
+     "ms": 28625.2,
+     "score": 51
+    },
+    {
+     "ply": 71,
+     "color": "black",
+     "engine": "v5",
+     "msg": "HOFR",
+     "nodes": 37623,
+     "ms": 24932.0,
+     "score": 88
+    },
+    {
+     "ply": 72,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DCQM",
+     "nodes": 166113,
+     "ms": 103013.9,
+     "score": -48
+    },
+    {
+     "ply": 73,
+     "color": "black",
+     "engine": "v5",
+     "msg": "MQIR",
+     "nodes": 40232,
+     "ms": 23329.7,
+     "score": 136
+    },
+    {
+     "ply": 74,
+     "color": "white",
+     "engine": "v6",
+     "msg": "OAPC",
+     "nodes": 176430,
+     "ms": 107543.2,
+     "score": -6
+    },
+    {
+     "ply": 75,
+     "color": "black",
+     "engine": "v5",
+     "msg": "QNPD",
+     "nodes": 42217,
+     "ms": 25347.7,
+     "score": 174
+    },
+    {
+     "ply": 76,
+     "color": "white",
+     "engine": "v6",
+     "msg": "LAGS",
+     "nodes": 75165,
+     "ms": 51245.1,
+     "score": 138
+    },
+    {
+     "ply": 77,
+     "color": "black",
+     "engine": "v5",
+     "msg": "OENQ",
+     "nodes": 20137,
+     "ms": 13173.7,
+     "score": 18
+    },
+    {
+     "ply": 78,
+     "color": "white",
+     "engine": "v6",
+     "msg": "OQLO",
+     "nodes": 60167,
+     "ms": 41438.1,
+     "score": 134
+    },
+    {
+     "ply": 79,
+     "color": "black",
+     "engine": "v5",
+     "msg": "QOOF",
+     "nodes": 81839,
+     "ms": 58350.3,
+     "score": 145
+    },
+    {
+     "ply": 80,
+     "color": "white",
+     "engine": "v6",
+     "msg": "QCQF",
+     "nodes": 107178,
+     "ms": 72691.4,
+     "score": 44
+    },
+    {
+     "ply": 81,
+     "color": "black",
+     "engine": "v5",
+     "msg": "ODJR",
+     "nodes": 13998,
+     "ms": 8884.7,
+     "score": 32
+    },
+    {
+     "ply": 82,
+     "color": "white",
+     "engine": "v6",
+     "msg": "KRER",
+     "nodes": 127585,
+     "ms": 78522.4,
+     "score": 5
+    },
+    {
+     "ply": 83,
+     "color": "black",
+     "engine": "v5",
+     "msg": "QDOR",
+     "nodes": 30675,
+     "ms": 18007.1,
+     "score": 142
+    },
+    {
+     "ply": 84,
+     "color": "white",
+     "engine": "v6",
+     "msg": "RDSD",
+     "nodes": 140315,
+     "ms": 81917.2,
+     "score": -3
+    },
+    {
+     "ply": 85,
+     "color": "black",
+     "engine": "v5",
+     "msg": "SEHS",
+     "nodes": 18548,
+     "ms": 10636.4,
+     "score": -1
+    },
+    {
+     "ply": 86,
+     "color": "white",
+     "engine": "v6",
+     "msg": "QPNS",
+     "nodes": 38325,
+     "ms": 25431.2,
+     "score": 105
+    },
+    {
+     "ply": 87,
+     "color": "black",
+     "engine": "v5",
+     "msg": "KAOS",
+     "nodes": 75241,
+     "ms": 45203.3,
+     "score": 101
+    },
+    {
+     "ply": 88,
+     "color": "white",
+     "engine": "v6",
+     "msg": "RMNR",
+     "nodes": 159854,
+     "ms": 92009.7,
+     "score": -10
+    },
+    {
+     "ply": 89,
+     "color": "black",
+     "engine": "v5",
+     "msg": "KBDB",
+     "nodes": 94925,
+     "ms": 59221.1,
+     "score": 55
+    },
+    {
+     "ply": 90,
+     "color": "white",
+     "engine": "v6",
+     "msg": "JBEB",
+     "nodes": 55040,
+     "ms": 37610.4,
+     "score": 67
+    },
+    {
+     "ply": 91,
+     "color": "black",
+     "engine": "v5",
+     "msg": "JADA",
+     "nodes": 14313,
+     "ms": 8625.0,
+     "score": -14
+    },
+    {
+     "ply": 92,
+     "color": "white",
+     "engine": "v6",
+     "msg": "IACA",
+     "nodes": 45195,
+     "ms": 29887.2,
+     "score": 55
+    },
+    {
+     "ply": 93,
+     "color": "black",
+     "engine": "v5",
+     "msg": "ISES",
+     "nodes": 70899,
+     "ms": 42746.4,
+     "score": 37
+    },
+    {
+     "ply": 94,
+     "color": "white",
+     "engine": "v6",
+     "msg": "JSDS",
+     "nodes": 47817,
+     "ms": 33976.9,
+     "score": 54
+    },
+    {
+     "ply": 95,
+     "color": "black",
+     "engine": "v5",
+     "msg": "RNAJ",
+     "nodes": 75953,
+     "ms": 46054.1,
+     "score": 52
+    },
+    {
+     "ply": 96,
+     "color": "white",
+     "engine": "v6",
+     "msg": "SFAF",
+     "nodes": 151721,
+     "ms": 87729.5,
+     "score": -18
+    },
+    {
+     "ply": 97,
+     "color": "black",
+     "engine": "v5",
+     "msg": "AERE",
+     "nodes": 89860,
+     "ms": 52569.4,
+     "score": 17
+    },
+    {
+     "ply": 98,
+     "color": "white",
+     "engine": "v6",
+     "msg": "AKAI",
+     "nodes": 107691,
+     "ms": 61940.2,
+     "score": -15
+    },
+    {
+     "ply": 99,
+     "color": "black",
+     "engine": "v5",
+     "msg": "PEQE",
+     "nodes": 1,
+     "ms": 0.8,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 34,
+   "mover_color": "black",
+   "mover_engine": "v6",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 19,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 301576,
+     "ms": 465414.80404199683,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 976735,
+     "ms": 1579231.9327069963,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v6",
+     "msg": "QJLP",
+     "nodes": 241821,
+     "ms": 366920.3,
+     "score": 165
+    },
+    {
+     "ply": 2,
+     "color": "white",
+     "engine": "v5",
+     "msg": "KQRI",
+     "nodes": 17303,
+     "ms": 29013.1,
+     "score": 32
+    },
+    {
+     "ply": 3,
+     "color": "black",
+     "engine": "v6",
+     "msg": "PIOH",
+     "nodes": 79898,
+     "ms": 140903.5,
+     "score": 2
+    },
+    {
+     "ply": 4,
+     "color": "white",
+     "engine": "v5",
+     "msg": "KORK",
+     "nodes": 34220,
+     "ms": 56269.3,
+     "score": 255
+    },
+    {
+     "ply": 5,
+     "color": "black",
+     "engine": "v6",
+     "msg": "JPGH",
+     "nodes": 270754,
+     "ms": 478528.4,
+     "score": 633
+    },
+    {
+     "ply": 6,
+     "color": "white",
+     "engine": "v5",
+     "msg": "GIFI",
+     "nodes": 41771,
+     "ms": 66607.6,
+     "score": 626
+    },
+    {
+     "ply": 7,
+     "color": "black",
+     "engine": "v6",
+     "msg": "EIFF",
+     "nodes": 182206,
+     "ms": 291539.6,
+     "score": 747
+    },
+    {
+     "ply": 8,
+     "color": "white",
+     "engine": "v5",
+     "msg": "EEFH",
+     "nodes": 14030,
+     "ms": 40063.6,
+     "score": 493
+    },
+    {
+     "ply": 9,
+     "color": "black",
+     "engine": "v6",
+     "msg": "HJFJ",
+     "nodes": 66211,
+     "ms": 112292.4,
+     "score": 309
+    },
+    {
+     "ply": 10,
+     "color": "white",
+     "engine": "v5",
+     "msg": "EJHL",
+     "nodes": 19328,
+     "ms": 40605.1,
+     "score": 470
+    },
+    {
+     "ply": 11,
+     "color": "black",
+     "engine": "v6",
+     "msg": "GFKP",
+     "nodes": 40277,
+     "ms": 64750.0,
+     "score": 379
+    },
+    {
+     "ply": 12,
+     "color": "white",
+     "engine": "v5",
+     "msg": "MPQH",
+     "nodes": 21845,
+     "ms": 31000.3,
+     "score": 373
+    },
+    {
+     "ply": 13,
+     "color": "black",
+     "engine": "v6",
+     "msg": "PJIL",
+     "nodes": 44263,
+     "ms": 51373.4,
+     "score": 373
+    },
+    {
+     "ply": 14,
+     "color": "white",
+     "engine": "v5",
+     "msg": "PGGE",
+     "nodes": 31201,
+     "ms": 50111.8,
+     "score": 197
+    },
+    {
+     "ply": 15,
+     "color": "black",
+     "engine": "v6",
+     "msg": "HFJM",
+     "nodes": 51058,
+     "ms": 71166.5,
+     "score": 267
+    },
+    {
+     "ply": 16,
+     "color": "white",
+     "engine": "v5",
+     "msg": "KNEF",
+     "nodes": 30144,
+     "ms": 40364.7,
+     "score": -1
+    },
+    {
+     "ply": 17,
+     "color": "black",
+     "engine": "v6",
+     "msg": "GPHM",
+     "nodes": 246,
+     "ms": 1756.9,
+     "score": 20000
+    },
+    {
+     "ply": 18,
+     "color": "white",
+     "engine": "v5",
+     "msg": "HOJO",
+     "nodes": 91734,
+     "ms": 111379.2,
+     "score": 42
+    },
+    {
+     "ply": 19,
+     "color": "black",
+     "engine": "v6",
+     "msg": "HPIP",
+     "nodes": 1,
+     "ms": 0.8,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 36,
+   "mover_color": "black",
+   "mover_engine": "v4",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 42,
+   "tally": {
+    "v4": {
+     "nodes": 966347,
+     "ms": 1356040.7194539912,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 984033,
+     "ms": 1732502.7263800036,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v4",
+     "msg": "PJLP",
+     "nodes": 36525,
+     "ms": 58620.2,
+     "score": 381
+    },
+    {
+     "ply": 2,
+     "color": "white",
+     "engine": "v5",
+     "msg": "KQPG",
+     "nodes": 34466,
+     "ms": 64233.4,
+     "score": 199
+    },
+    {
+     "ply": 3,
+     "color": "black",
+     "engine": "v4",
+     "msg": "JNGH",
+     "nodes": 30436,
+     "ms": 53416.7,
+     "score": 199
+    },
+    {
+     "ply": 4,
+     "color": "white",
+     "engine": "v5",
+     "msg": "GIFH",
+     "nodes": 12712,
+     "ms": 25028.9,
+     "score": 415
+    },
+    {
+     "ply": 5,
+     "color": "black",
+     "engine": "v4",
+     "msg": "EIHJ",
+     "nodes": 32204,
+     "ms": 60328.5,
+     "score": 124
+    },
+    {
+     "ply": 6,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FJOH",
+     "nodes": 36574,
+     "ms": 66301.4,
+     "score": 214
+    },
+    {
+     "ply": 7,
+     "color": "black",
+     "engine": "v4",
+     "msg": "FGFK",
+     "nodes": 34849,
+     "ms": 64951.1,
+     "score": 248
+    },
+    {
+     "ply": 8,
+     "color": "white",
+     "engine": "v5",
+     "msg": "OGMF",
+     "nodes": 33874,
+     "ms": 76115.1,
+     "score": 197
+    },
+    {
+     "ply": 9,
+     "color": "black",
+     "engine": "v4",
+     "msg": "OFMG",
+     "nodes": 37116,
+     "ms": 62109.8,
+     "score": 377
+    },
+    {
+     "ply": 10,
+     "color": "white",
+     "engine": "v5",
+     "msg": "KOKD",
+     "nodes": 29857,
+     "ms": 61703.5,
+     "score": 206
+    },
+    {
+     "ply": 11,
+     "color": "black",
+     "engine": "v4",
+     "msg": "JPJC",
+     "nodes": 6270,
+     "ms": 12368.1,
+     "score": 35
+    },
+    {
+     "ply": 12,
+     "color": "white",
+     "engine": "v5",
+     "msg": "KCLC",
+     "nodes": 31588,
+     "ms": 56044.3,
+     "score": 291
+    },
+    {
+     "ply": 13,
+     "color": "black",
+     "engine": "v4",
+     "msg": "NFKP",
+     "nodes": 22392,
+     "ms": 41915.4,
+     "score": 628
+    },
+    {
+     "ply": 14,
+     "color": "white",
+     "engine": "v5",
+     "msg": "NGQF",
+     "nodes": 19006,
+     "ms": 49055.2,
+     "score": 714
+    },
+    {
+     "ply": 15,
+     "color": "black",
+     "engine": "v4",
+     "msg": "REGF",
+     "nodes": 22678,
+     "ms": 38815.4,
+     "score": 744
+    },
+    {
+     "ply": 16,
+     "color": "white",
+     "engine": "v5",
+     "msg": "IPEH",
+     "nodes": 70763,
+     "ms": 146940.7,
+     "score": 713
+    },
+    {
+     "ply": 17,
+     "color": "black",
+     "engine": "v4",
+     "msg": "OEHL",
+     "nodes": 14412,
+     "ms": 27999.5,
+     "score": 753
+    },
+    {
+     "ply": 18,
+     "color": "white",
+     "engine": "v5",
+     "msg": "PDHM",
+     "nodes": 25197,
+     "ms": 63834.4,
+     "score": 528
+    },
+    {
+     "ply": 19,
+     "color": "black",
+     "engine": "v4",
+     "msg": "GEND",
+     "nodes": 7271,
+     "ms": 14787.0,
+     "score": 528
+    },
+    {
+     "ply": 20,
+     "color": "white",
+     "engine": "v5",
+     "msg": "GDPF",
+     "nodes": 31113,
+     "ms": 132340.4,
+     "score": 355
+    },
+    {
+     "ply": 21,
+     "color": "black",
+     "engine": "v4",
+     "msg": "GMFF",
+     "nodes": 28658,
+     "ms": 58731.1,
+     "score": 355
+    },
+    {
+     "ply": 22,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FNEE",
+     "nodes": 120578,
+     "ms": 241534.5,
+     "score": 421
+    },
+    {
+     "ply": 23,
+     "color": "black",
+     "engine": "v4",
+     "msg": "HFPE",
+     "nodes": 82338,
+     "ms": 153310.2,
+     "score": 370
+    },
+    {
+     "ply": 24,
+     "color": "white",
+     "engine": "v5",
+     "msg": "EFQE",
+     "nodes": 110746,
+     "ms": 203915.0,
+     "score": 136
+    },
+    {
+     "ply": 25,
+     "color": "black",
+     "engine": "v4",
+     "msg": "EGGL",
+     "nodes": 119425,
+     "ms": 187277.1,
+     "score": 203
+    },
+    {
+     "ply": 26,
+     "color": "white",
+     "engine": "v5",
+     "msg": "DHQJ",
+     "nodes": 138428,
+     "ms": 181408.5,
+     "score": 359
+    },
+    {
+     "ply": 27,
+     "color": "black",
+     "engine": "v4",
+     "msg": "FLQG",
+     "nodes": 169441,
+     "ms": 207977.6,
+     "score": 200
+    },
+    {
+     "ply": 28,
+     "color": "white",
+     "engine": "v5",
+     "msg": "ELCH",
+     "nodes": 80297,
+     "ms": 97833.4,
+     "score": 226
+    },
+    {
+     "ply": 29,
+     "color": "black",
+     "engine": "v4",
+     "msg": "BHFE",
+     "nodes": 148940,
+     "ms": 144390.7,
+     "score": 134
+    },
+    {
+     "ply": 30,
+     "color": "white",
+     "engine": "v5",
+     "msg": "MPNC",
+     "nodes": 73258,
+     "ms": 121607.5,
+     "score": 185
+    },
+    {
+     "ply": 31,
+     "color": "black",
+     "engine": "v4",
+     "msg": "DGHD",
+     "nodes": 31676,
+     "ms": 30575.2,
+     "score": 220
+    },
+    {
+     "ply": 32,
+     "color": "white",
+     "engine": "v5",
+     "msg": "ICCG",
+     "nodes": 30841,
+     "ms": 36119.6,
+     "score": -15
+    },
+    {
+     "ply": 33,
+     "color": "black",
+     "engine": "v4",
+     "msg": "FDIO",
+     "nodes": 38430,
+     "ms": 37624.8,
+     "score": 12
+    },
+    {
+     "ply": 34,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FCEK",
+     "nodes": 19917,
+     "ms": 19949.0,
+     "score": 210
+    },
+    {
+     "ply": 35,
+     "color": "black",
+     "engine": "v4",
+     "msg": "DLNO",
+     "nodes": 37305,
+     "ms": 37647.1,
+     "score": -135
+    },
+    {
+     "ply": 36,
+     "color": "white",
+     "engine": "v5",
+     "msg": "ECFM",
+     "nodes": 61675,
+     "ms": 62079.3,
+     "score": 126
+    },
+    {
+     "ply": 37,
+     "color": "black",
+     "engine": "v4",
+     "msg": "NPDK",
+     "nodes": 37284,
+     "ms": 37034.9,
+     "score": -69
+    },
+    {
+     "ply": 38,
+     "color": "white",
+     "engine": "v5",
+     "msg": "NQED",
+     "nodes": 22252,
+     "ms": 21850.6,
+     "score": -69
+    },
+    {
+     "ply": 39,
+     "color": "black",
+     "engine": "v4",
+     "msg": "EBLO",
+     "nodes": 21229,
+     "ms": 19118.1,
+     "score": -415
+    },
+    {
+     "ply": 40,
+     "color": "white",
+     "engine": "v5",
+     "msg": "JQDC",
+     "nodes": 890,
+     "ms": 4607.0,
+     "score": -20000
+    },
+    {
+     "ply": 41,
+     "color": "black",
+     "engine": "v4",
+     "msg": "OOHP",
+     "nodes": 7468,
+     "ms": 7042.4,
+     "score": -71
+    },
+    {
+     "ply": 42,
+     "color": "white",
+     "engine": "v5",
+     "msg": "GCHC",
+     "nodes": 1,
+     "ms": 0.8,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 36,
+   "mover_color": "black",
+   "mover_engine": "v4",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 50,
+   "tally": {
+    "v4": {
+     "nodes": 577568,
+     "ms": 746731.4813729972,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 3108046,
+     "ms": 4106560.683039002,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v4",
+     "msg": "PJLP",
+     "nodes": 36525,
+     "ms": 59910.9,
+     "score": 381
+    },
+    {
+     "ply": 2,
+     "color": "white",
+     "engine": "v6",
+     "msg": "KQPG",
+     "nodes": 105671,
+     "ms": 196290.2,
+     "score": 432
+    },
+    {
+     "ply": 3,
+     "color": "black",
+     "engine": "v4",
+     "msg": "JNGH",
+     "nodes": 30436,
+     "ms": 53839.3,
+     "score": 199
+    },
+    {
+     "ply": 4,
+     "color": "white",
+     "engine": "v6",
+     "msg": "GIFH",
+     "nodes": 77966,
+     "ms": 137055.3,
+     "score": 415
+    },
+    {
+     "ply": 5,
+     "color": "black",
+     "engine": "v4",
+     "msg": "EIHJ",
+     "nodes": 32204,
+     "ms": 62222.0,
+     "score": 124
+    },
+    {
+     "ply": 6,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FJOH",
+     "nodes": 82624,
+     "ms": 146839.5,
+     "score": 214
+    },
+    {
+     "ply": 7,
+     "color": "black",
+     "engine": "v4",
+     "msg": "FGFK",
+     "nodes": 34849,
+     "ms": 64560.0,
+     "score": 248
+    },
+    {
+     "ply": 8,
+     "color": "white",
+     "engine": "v6",
+     "msg": "OGMF",
+     "nodes": 85391,
+     "ms": 167611.4,
+     "score": 197
+    },
+    {
+     "ply": 9,
+     "color": "black",
+     "engine": "v4",
+     "msg": "OFMG",
+     "nodes": 37116,
+     "ms": 62113.7,
+     "score": 377
+    },
+    {
+     "ply": 10,
+     "color": "white",
+     "engine": "v6",
+     "msg": "KOKD",
+     "nodes": 107574,
+     "ms": 203076.0,
+     "score": 206
+    },
+    {
+     "ply": 11,
+     "color": "black",
+     "engine": "v4",
+     "msg": "JPJC",
+     "nodes": 6270,
+     "ms": 13528.0,
+     "score": 35
+    },
+    {
+     "ply": 12,
+     "color": "white",
+     "engine": "v6",
+     "msg": "KCLC",
+     "nodes": 113530,
+     "ms": 196314.3,
+     "score": 291
+    },
+    {
+     "ply": 13,
+     "color": "black",
+     "engine": "v4",
+     "msg": "NFKP",
+     "nodes": 22392,
+     "ms": 38302.8,
+     "score": 628
+    },
+    {
+     "ply": 14,
+     "color": "white",
+     "engine": "v6",
+     "msg": "NGQF",
+     "nodes": 95689,
+     "ms": 177259.6,
+     "score": 714
+    },
+    {
+     "ply": 15,
+     "color": "black",
+     "engine": "v4",
+     "msg": "REGF",
+     "nodes": 22678,
+     "ms": 38401.7,
+     "score": 744
+    },
+    {
+     "ply": 16,
+     "color": "white",
+     "engine": "v6",
+     "msg": "IPEH",
+     "nodes": 116530,
+     "ms": 205715.5,
+     "score": 713
+    },
+    {
+     "ply": 17,
+     "color": "black",
+     "engine": "v4",
+     "msg": "OEHL",
+     "nodes": 14412,
+     "ms": 25734.2,
+     "score": 753
+    },
+    {
+     "ply": 18,
+     "color": "white",
+     "engine": "v6",
+     "msg": "PDHM",
+     "nodes": 118785,
+     "ms": 194142.9,
+     "score": 528
+    },
+    {
+     "ply": 19,
+     "color": "black",
+     "engine": "v4",
+     "msg": "GEND",
+     "nodes": 7271,
+     "ms": 10256.4,
+     "score": 528
+    },
+    {
+     "ply": 20,
+     "color": "white",
+     "engine": "v6",
+     "msg": "GDQG",
+     "nodes": 281769,
+     "ms": 399437.6,
+     "score": 459
+    },
+    {
+     "ply": 21,
+     "color": "black",
+     "engine": "v4",
+     "msg": "RGFF",
+     "nodes": 7480,
+     "ms": 7643.6,
+     "score": 440
+    },
+    {
+     "ply": 22,
+     "color": "white",
+     "engine": "v6",
+     "msg": "GMEE",
+     "nodes": 203214,
+     "ms": 232424.2,
+     "score": 431
+    },
+    {
+     "ply": 23,
+     "color": "black",
+     "engine": "v4",
+     "msg": "HFQE",
+     "nodes": 20604,
+     "ms": 22623.3,
+     "score": 487
+    },
+    {
+     "ply": 24,
+     "color": "white",
+     "engine": "v6",
+     "msg": "EFPE",
+     "nodes": 51568,
+     "ms": 55610.3,
+     "score": 485
+    },
+    {
+     "ply": 25,
+     "color": "black",
+     "engine": "v4",
+     "msg": "EGRF",
+     "nodes": 32302,
+     "ms": 33077.8,
+     "score": 483
+    },
+    {
+     "ply": 26,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DHRH",
+     "nodes": 63444,
+     "ms": 61388.0,
+     "score": 170
+    },
+    {
+     "ply": 27,
+     "color": "black",
+     "engine": "v4",
+     "msg": "PFHD",
+     "nodes": 41491,
+     "ms": 39119.2,
+     "score": 362
+    },
+    {
+     "ply": 28,
+     "color": "white",
+     "engine": "v6",
+     "msg": "ICLB",
+     "nodes": 54320,
+     "ms": 53163.4,
+     "score": 358
+    },
+    {
+     "ply": 29,
+     "color": "black",
+     "engine": "v4",
+     "msg": "NCGL",
+     "nodes": 18735,
+     "ms": 15926.7,
+     "score": 216
+    },
+    {
+     "ply": 30,
+     "color": "white",
+     "engine": "v6",
+     "msg": "NBFL",
+     "nodes": 168594,
+     "ms": 153556.3,
+     "score": -87
+    },
+    {
+     "ply": 31,
+     "color": "black",
+     "engine": "v4",
+     "msg": "QJRD",
+     "nodes": 21661,
+     "ms": 20795.1,
+     "score": 87
+    },
+    {
+     "ply": 32,
+     "color": "white",
+     "engine": "v6",
+     "msg": "RIRC",
+     "nodes": 77547,
+     "ms": 69181.3,
+     "score": 27
+    },
+    {
+     "ply": 33,
+     "color": "black",
+     "engine": "v4",
+     "msg": "DGFM",
+     "nodes": 37532,
+     "ms": 36895.4,
+     "score": -288
+    },
+    {
+     "ply": 34,
+     "color": "white",
+     "engine": "v6",
+     "msg": "CGCH",
+     "nodes": 45710,
+     "ms": 42931.4,
+     "score": -198
+    },
+    {
+     "ply": 35,
+     "color": "black",
+     "engine": "v4",
+     "msg": "BHNO",
+     "nodes": 15110,
+     "ms": 13809.1,
+     "score": -286
+    },
+    {
+     "ply": 36,
+     "color": "white",
+     "engine": "v6",
+     "msg": "ENNP",
+     "nodes": 48149,
+     "ms": 44073.7,
+     "score": -61
+    },
+    {
+     "ply": 37,
+     "color": "black",
+     "engine": "v4",
+     "msg": "OOJO",
+     "nodes": 26738,
+     "ms": 24546.7,
+     "score": -370
+    },
+    {
+     "ply": 38,
+     "color": "white",
+     "engine": "v6",
+     "msg": "POJQ",
+     "nodes": 79620,
+     "ms": 69837.2,
+     "score": -105
+    },
+    {
+     "ply": 39,
+     "color": "black",
+     "engine": "v4",
+     "msg": "IQCF",
+     "nodes": 36895,
+     "ms": 32836.2,
+     "score": -147
+    },
+    {
+     "ply": 40,
+     "color": "white",
+     "engine": "v6",
+     "msg": "MBEK",
+     "nodes": 82240,
+     "ms": 118385.8,
+     "score": -147
+    },
+    {
+     "ply": 41,
+     "color": "black",
+     "engine": "v4",
+     "msg": "KBCI",
+     "nodes": 20673,
+     "ms": 17825.3,
+     "score": -235
+    },
+    {
+     "ply": 42,
+     "color": "white",
+     "engine": "v6",
+     "msg": "HNDL",
+     "nodes": 310141,
+     "ms": 528119.7,
+     "score": -498
+    },
+    {
+     "ply": 43,
+     "color": "black",
+     "engine": "v4",
+     "msg": "CMDJ",
+     "nodes": 5790,
+     "ms": 5856.0,
+     "score": -498
+    },
+    {
+     "ply": 44,
+     "color": "white",
+     "engine": "v6",
+     "msg": "IMEM",
+     "nodes": 473388,
+     "ms": 438091.1,
+     "score": -408
+    },
+    {
+     "ply": 45,
+     "color": "black",
+     "engine": "v4",
+     "msg": "GOLQ",
+     "nodes": 41803,
+     "ms": 40948.5,
+     "score": -363
+    },
+    {
+     "ply": 46,
+     "color": "white",
+     "engine": "v6",
+     "msg": "ELEO",
+     "nodes": 214205,
+     "ms": 174311.2,
+     "score": -281
+    },
+    {
+     "ply": 47,
+     "color": "black",
+     "engine": "v4",
+     "msg": "EJEP",
+     "nodes": 6476,
+     "ms": 5870.4,
+     "score": -459
+    },
+    {
+     "ply": 48,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DNFN",
+     "nodes": 50376,
+     "ms": 41744.0,
+     "score": -323
+    },
+    {
+     "ply": 49,
+     "color": "black",
+     "engine": "v4",
+     "msg": "GNIN",
+     "nodes": 125,
+     "ms": 89.4,
+     "score": -20000
+    },
+    {
+     "ply": 50,
+     "color": "white",
+     "engine": "v6",
+     "msg": "BPCO",
+     "nodes": 1,
+     "ms": 0.8,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 36,
+   "mover_color": "black",
+   "mover_engine": "v5",
+   "opponent_engine": "v4",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 3,
+   "tally": {
+    "v4": {
+     "nodes": 47701,
+     "ms": 85390.7430420004,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 71,
+     "ms": 1060.352291999152,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v5",
+     "msg": "JRQJ",
+     "nodes": 70,
+     "ms": 1059.5,
+     "score": 20000
+    },
+    {
+     "ply": 2,
+     "color": "white",
+     "engine": "v4",
+     "msg": "RIGH",
+     "nodes": 47701,
+     "ms": 85390.7,
+     "score": -26
+    },
+    {
+     "ply": 3,
+     "color": "black",
+     "engine": "v5",
+     "msg": "KQLP",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 36,
+   "mover_color": "black",
+   "mover_engine": "v5",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 3,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 71,
+     "ms": 1103.6316239988082,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 38228,
+     "ms": 68469.13229200072,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v5",
+     "msg": "JRQJ",
+     "nodes": 70,
+     "ms": 1066.1,
+     "score": 20000
+    },
+    {
+     "ply": 2,
+     "color": "white",
+     "engine": "v6",
+     "msg": "RIGH",
+     "nodes": 38228,
+     "ms": 68469.1,
+     "score": -26
+    },
+    {
+     "ply": 3,
+     "color": "black",
+     "engine": "v5",
+     "msg": "KQLP",
+     "nodes": 1,
+     "ms": 37.6,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 36,
+   "mover_color": "black",
+   "mover_engine": "v6",
+   "opponent_engine": "v4",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 3,
+   "tally": {
+    "v4": {
+     "nodes": 47701,
+     "ms": 86346.8522080002,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 71,
+     "ms": 1139.6516249988053,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v6",
+     "msg": "JRQJ",
+     "nodes": 70,
+     "ms": 1138.8,
+     "score": 20000
+    },
+    {
+     "ply": 2,
+     "color": "white",
+     "engine": "v4",
+     "msg": "RIGH",
+     "nodes": 47701,
+     "ms": 86346.9,
+     "score": -26
+    },
+    {
+     "ply": 3,
+     "color": "black",
+     "engine": "v6",
+     "msg": "KQLP",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 36,
+   "mover_color": "black",
+   "mover_engine": "v6",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 3,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 47729,
+     "ms": 84871.7445000002,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 71,
+     "ms": 1028.1277080030122,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v6",
+     "msg": "JRQJ",
+     "nodes": 70,
+     "ms": 1027.3,
+     "score": 20000
+    },
+    {
+     "ply": 2,
+     "color": "white",
+     "engine": "v5",
+     "msg": "RIGH",
+     "nodes": 47729,
+     "ms": 84871.7,
+     "score": -26
+    },
+    {
+     "ply": 3,
+     "color": "black",
+     "engine": "v6",
+     "msg": "KQLP",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 37,
+   "mover_color": "white",
+   "mover_engine": "v5",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": null,
+   "plies_from_start": 120,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 2408626,
+     "ms": 2362254.860833985,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 5911776,
+     "ms": 5289219.582500015,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v5",
+     "msg": "JNKO",
+     "nodes": 57399,
+     "ms": 107123.9,
+     "score": 47
+    },
+    {
+     "ply": 2,
+     "color": "black",
+     "engine": "v6",
+     "msg": "INJP",
+     "nodes": 92867,
+     "ms": 155289.3,
+     "score": 515
+    },
+    {
+     "ply": 3,
+     "color": "white",
+     "engine": "v5",
+     "msg": "GHIM",
+     "nodes": 58636,
+     "ms": 188425.0,
+     "score": 444
+    },
+    {
+     "ply": 4,
+     "color": "black",
+     "engine": "v6",
+     "msg": "PJHM",
+     "nodes": 134811,
+     "ms": 256165.1,
+     "score": 449
+    },
+    {
+     "ply": 5,
+     "color": "white",
+     "engine": "v5",
+     "msg": "PGHN",
+     "nodes": 55452,
+     "ms": 112124.5,
+     "score": 731
+    },
+    {
+     "ply": 6,
+     "color": "black",
+     "engine": "v6",
+     "msg": "GOGL",
+     "nodes": 69721,
+     "ms": 124830.2,
+     "score": 211
+    },
+    {
+     "ply": 7,
+     "color": "white",
+     "engine": "v5",
+     "msg": "GMFG",
+     "nodes": 53537,
+     "ms": 152013.1,
+     "score": 186
+    },
+    {
+     "ply": 8,
+     "color": "black",
+     "engine": "v6",
+     "msg": "EFEJ",
+     "nodes": 152341,
+     "ms": 253668.8,
+     "score": 573
+    },
+    {
+     "ply": 9,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FKLP",
+     "nodes": 35082,
+     "ms": 58564.6,
+     "score": 611
+    },
+    {
+     "ply": 10,
+     "color": "black",
+     "engine": "v6",
+     "msg": "MQFH",
+     "nodes": 114790,
+     "ms": 157005.2,
+     "score": 611
+    },
+    {
+     "ply": 11,
+     "color": "white",
+     "engine": "v5",
+     "msg": "HJHF",
+     "nodes": 74845,
+     "ms": 106919.7,
+     "score": 447
+    },
+    {
+     "ply": 12,
+     "color": "black",
+     "engine": "v6",
+     "msg": "FLNO",
+     "nodes": 40028,
+     "ms": 50891.4,
+     "score": 448
+    },
+    {
+     "ply": 13,
+     "color": "white",
+     "engine": "v5",
+     "msg": "ELMF",
+     "nodes": 23331,
+     "ms": 31975.1,
+     "score": 402
+    },
+    {
+     "ply": 14,
+     "color": "black",
+     "engine": "v6",
+     "msg": "NPMG",
+     "nodes": 48021,
+     "ms": 56659.8,
+     "score": 357
+    },
+    {
+     "ply": 15,
+     "color": "white",
+     "engine": "v5",
+     "msg": "NQLO",
+     "nodes": 13044,
+     "ms": 18547.6,
+     "score": 408
+    },
+    {
+     "ply": 16,
+     "color": "black",
+     "engine": "v6",
+     "msg": "GNQJ",
+     "nodes": 72446,
+     "ms": 88108.8,
+     "score": 443
+    },
+    {
+     "ply": 17,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FORI",
+     "nodes": 39498,
+     "ms": 48942.2,
+     "score": 146
+    },
+    {
+     "ply": 18,
+     "color": "black",
+     "engine": "v6",
+     "msg": "JOOO",
+     "nodes": 109419,
+     "ms": 127612.7,
+     "score": 139
+    },
+    {
+     "ply": 19,
+     "color": "white",
+     "engine": "v5",
+     "msg": "KPMP",
+     "nodes": 16355,
+     "ms": 17834.0,
+     "score": 372
+    },
+    {
+     "ply": 20,
+     "color": "black",
+     "engine": "v6",
+     "msg": "ORPN",
+     "nodes": 49183,
+     "ms": 52170.3,
+     "score": 212
+    },
+    {
+     "ply": 21,
+     "color": "white",
+     "engine": "v5",
+     "msg": "QMLR",
+     "nodes": 75838,
+     "ms": 79091.6,
+     "score": 93
+    },
+    {
+     "ply": 22,
+     "color": "black",
+     "engine": "v6",
+     "msg": "LQPO",
+     "nodes": 69897,
+     "ms": 73472.9,
+     "score": 93
+    },
+    {
+     "ply": 23,
+     "color": "white",
+     "engine": "v5",
+     "msg": "QOEK",
+     "nodes": 19616,
+     "ms": 19877.3,
+     "score": 242
+    },
+    {
+     "ply": 24,
+     "color": "black",
+     "engine": "v6",
+     "msg": "JQOH",
+     "nodes": 97398,
+     "ms": 93298.4,
+     "score": -203
+    },
+    {
+     "ply": 25,
+     "color": "white",
+     "engine": "v5",
+     "msg": "KQNG",
+     "nodes": 46134,
+     "ms": 46371.3,
+     "score": 63
+    },
+    {
+     "ply": 26,
+     "color": "black",
+     "engine": "v6",
+     "msg": "KRQH",
+     "nodes": 70548,
+     "ms": 64566.0,
+     "score": -29
+    },
+    {
+     "ply": 27,
+     "color": "white",
+     "engine": "v5",
+     "msg": "RHNF",
+     "nodes": 21650,
+     "ms": 20026.1,
+     "score": 20
+    },
+    {
+     "ply": 28,
+     "color": "black",
+     "engine": "v6",
+     "msg": "OGPP",
+     "nodes": 134235,
+     "ms": 123340.7,
+     "score": -254
+    },
+    {
+     "ply": 29,
+     "color": "white",
+     "engine": "v5",
+     "msg": "IPHO",
+     "nodes": 81598,
+     "ms": 95537.6,
+     "score": 33
+    },
+    {
+     "ply": 30,
+     "color": "black",
+     "engine": "v6",
+     "msg": "MIEM",
+     "nodes": 100349,
+     "ms": 99274.3,
+     "score": -41
+    },
+    {
+     "ply": 31,
+     "color": "white",
+     "engine": "v5",
+     "msg": "PFQN",
+     "nodes": 41104,
+     "ms": 37318.1,
+     "score": 64
+    },
+    {
+     "ply": 32,
+     "color": "black",
+     "engine": "v6",
+     "msg": "QPPQ",
+     "nodes": 120186,
+     "ms": 111138.1,
+     "score": -29
+    },
+    {
+     "ply": 33,
+     "color": "white",
+     "engine": "v5",
+     "msg": "PRRO",
+     "nodes": 91886,
+     "ms": 81668.5,
+     "score": 65
+    },
+    {
+     "ply": 34,
+     "color": "black",
+     "engine": "v6",
+     "msg": "KCQQ",
+     "nodes": 174686,
+     "ms": 450474.9,
+     "score": -102
+    },
+    {
+     "ply": 35,
+     "color": "white",
+     "engine": "v5",
+     "msg": "RROF",
+     "nodes": 45164,
+     "ms": 40926.5,
+     "score": -51
+    },
+    {
+     "ply": 36,
+     "color": "black",
+     "engine": "v6",
+     "msg": "QFOP",
+     "nodes": 81673,
+     "ms": 70568.1,
+     "score": -200
+    },
+    {
+     "ply": 37,
+     "color": "white",
+     "engine": "v5",
+     "msg": "RPGF",
+     "nodes": 54278,
+     "ms": 46818.9,
+     "score": -126
+    },
+    {
+     "ply": 38,
+     "color": "black",
+     "engine": "v6",
+     "msg": "FEQG",
+     "nodes": 103598,
+     "ms": 89697.5,
+     "score": -200
+    },
+    {
+     "ply": 39,
+     "color": "white",
+     "engine": "v5",
+     "msg": "QIHE",
+     "nodes": 38522,
+     "ms": 34795.1,
+     "score": -136
+    },
+    {
+     "ply": 40,
+     "color": "black",
+     "engine": "v6",
+     "msg": "IDLC",
+     "nodes": 231624,
+     "ms": 203608.5,
+     "score": -228
+    },
+    {
+     "ply": 41,
+     "color": "white",
+     "engine": "v5",
+     "msg": "EHHC",
+     "nodes": 91977,
+     "ms": 90311.1,
+     "score": -152
+    },
+    {
+     "ply": 42,
+     "color": "black",
+     "engine": "v6",
+     "msg": "HDDI",
+     "nodes": 86554,
+     "ms": 86388.8,
+     "score": -187
+    },
+    {
+     "ply": 43,
+     "color": "white",
+     "engine": "v5",
+     "msg": "RQKD",
+     "nodes": 32919,
+     "ms": 35163.0,
+     "score": -41
+    },
+    {
+     "ply": 44,
+     "color": "black",
+     "engine": "v6",
+     "msg": "JCRN",
+     "nodes": 56688,
+     "ms": 45241.1,
+     "score": 213
+    },
+    {
+     "ply": 45,
+     "color": "white",
+     "engine": "v5",
+     "msg": "NCRJ",
+     "nodes": 22209,
+     "ms": 18300.0,
+     "score": 213
+    },
+    {
+     "ply": 46,
+     "color": "black",
+     "engine": "v6",
+     "msg": "QERK",
+     "nodes": 97295,
+     "ms": 83061.7,
+     "score": -22
+    },
+    {
+     "ply": 47,
+     "color": "white",
+     "engine": "v5",
+     "msg": "QDHP",
+     "nodes": 27609,
+     "ms": 23391.5,
+     "score": 120
+    },
+    {
+     "ply": 48,
+     "color": "black",
+     "engine": "v6",
+     "msg": "PEGP",
+     "nodes": 42636,
+     "ms": 33220.9,
+     "score": -120
+    },
+    {
+     "ply": 49,
+     "color": "white",
+     "engine": "v5",
+     "msg": "RGDG",
+     "nodes": 15912,
+     "ms": 13113.6,
+     "score": 108
+    },
+    {
+     "ply": 50,
+     "color": "black",
+     "engine": "v6",
+     "msg": "RFDK",
+     "nodes": 47145,
+     "ms": 38654.5,
+     "score": -39
+    },
+    {
+     "ply": 51,
+     "color": "white",
+     "engine": "v5",
+     "msg": "GQFF",
+     "nodes": 46972,
+     "ms": 34458.9,
+     "score": -74
+    },
+    {
+     "ply": 52,
+     "color": "black",
+     "engine": "v6",
+     "msg": "OECF",
+     "nodes": 83246,
+     "ms": 62918.3,
+     "score": 126
+    },
+    {
+     "ply": 53,
+     "color": "white",
+     "engine": "v5",
+     "msg": "REGD",
+     "nodes": 56186,
+     "ms": 36969.2,
+     "score": -113
+    },
+    {
+     "ply": 54,
+     "color": "black",
+     "engine": "v6",
+     "msg": "HQDM",
+     "nodes": 47675,
+     "ms": 32079.2,
+     "score": -134
+    },
+    {
+     "ply": 55,
+     "color": "white",
+     "engine": "v5",
+     "msg": "IOFN",
+     "nodes": 37486,
+     "ms": 28382.9,
+     "score": 80
+    },
+    {
+     "ply": 56,
+     "color": "black",
+     "engine": "v6",
+     "msg": "FRFJ",
+     "nodes": 316489,
+     "ms": 228802.0,
+     "score": 97
+    },
+    {
+     "ply": 57,
+     "color": "white",
+     "engine": "v5",
+     "msg": "DJPD",
+     "nodes": 76799,
+     "ms": 56041.3,
+     "score": -1
+    },
+    {
+     "ply": 58,
+     "color": "black",
+     "engine": "v6",
+     "msg": "GEDN",
+     "nodes": 171288,
+     "ms": 128694.5,
+     "score": -108
+    },
+    {
+     "ply": 59,
+     "color": "white",
+     "engine": "v5",
+     "msg": "COEE",
+     "nodes": 99235,
+     "ms": 73655.7,
+     "score": 51
+    },
+    {
+     "ply": 60,
+     "color": "black",
+     "engine": "v6",
+     "msg": "DLDD",
+     "nodes": 68492,
+     "ms": 51210.2,
+     "score": -100
+    },
+    {
+     "ply": 61,
+     "color": "white",
+     "engine": "v5",
+     "msg": "DOCM",
+     "nodes": 13449,
+     "ms": 9784.1,
+     "score": 7
+    },
+    {
+     "ply": 62,
+     "color": "black",
+     "engine": "v6",
+     "msg": "CNGC",
+     "nodes": 127608,
+     "ms": 85856.1,
+     "score": 10
+    },
+    {
+     "ply": 63,
+     "color": "white",
+     "engine": "v5",
+     "msg": "EOEN",
+     "nodes": 68619,
+     "ms": 53783.8,
+     "score": -140
+    },
+    {
+     "ply": 64,
+     "color": "black",
+     "engine": "v6",
+     "msg": "BOCE",
+     "nodes": 50634,
+     "ms": 37578.9,
+     "score": -109
+    },
+    {
+     "ply": 65,
+     "color": "white",
+     "engine": "v5",
+     "msg": "CDCG",
+     "nodes": 18970,
+     "ms": 15366.5,
+     "score": 10
+    },
+    {
+     "ply": 66,
+     "color": "black",
+     "engine": "v6",
+     "msg": "EGOD",
+     "nodes": 103249,
+     "ms": 74687.9,
+     "score": 14
+    },
+    {
+     "ply": 67,
+     "color": "white",
+     "engine": "v5",
+     "msg": "DFPC",
+     "nodes": 35667,
+     "ms": 24420.1,
+     "score": -83
+    },
+    {
+     "ply": 68,
+     "color": "black",
+     "engine": "v6",
+     "msg": "BHDP",
+     "nodes": 45419,
+     "ms": 35968.4,
+     "score": -75
+    },
+    {
+     "ply": 69,
+     "color": "white",
+     "engine": "v5",
+     "msg": "SFBG",
+     "nodes": 69649,
+     "ms": 40012.5,
+     "score": -54
+    },
+    {
+     "ply": 70,
+     "color": "black",
+     "engine": "v6",
+     "msg": "OBER",
+     "nodes": 126400,
+     "ms": 81571.1,
+     "score": 95
+    },
+    {
+     "ply": 71,
+     "color": "white",
+     "engine": "v5",
+     "msg": "DRBN",
+     "nodes": 39573,
+     "ms": 28848.5,
+     "score": 81
+    },
+    {
+     "ply": 72,
+     "color": "black",
+     "engine": "v6",
+     "msg": "CPNB",
+     "nodes": 243365,
+     "ms": 178264.2,
+     "score": 162
+    },
+    {
+     "ply": 73,
+     "color": "white",
+     "engine": "v5",
+     "msg": "DQMB",
+     "nodes": 17081,
+     "ms": 11782.3,
+     "score": 139
+    },
+    {
+     "ply": 74,
+     "color": "black",
+     "engine": "v6",
+     "msg": "BFSG",
+     "nodes": 189521,
+     "ms": 137477.4,
+     "score": 122
+    },
+    {
+     "ply": 75,
+     "color": "white",
+     "engine": "v5",
+     "msg": "ECBP",
+     "nodes": 19388,
+     "ms": 13785.1,
+     "score": 126
+    },
+    {
+     "ply": 76,
+     "color": "black",
+     "engine": "v6",
+     "msg": "OCBE",
+     "nodes": 97000,
+     "ms": 62448.1,
+     "score": 108
+    },
+    {
+     "ply": 77,
+     "color": "white",
+     "engine": "v5",
+     "msg": "IESH",
+     "nodes": 21640,
+     "ms": 16766.3,
+     "score": -10
+    },
+    {
+     "ply": 78,
+     "color": "black",
+     "engine": "v6",
+     "msg": "PBSI",
+     "nodes": 36467,
+     "ms": 23947.5,
+     "score": -9
+    },
+    {
+     "ply": 79,
+     "color": "white",
+     "engine": "v5",
+     "msg": "BDGR",
+     "nodes": 18831,
+     "ms": 14325.2,
+     "score": 64
+    },
+    {
+     "ply": 80,
+     "color": "black",
+     "engine": "v6",
+     "msg": "QBBI",
+     "nodes": 121643,
+     "ms": 70560.4,
+     "score": 51
+    },
+    {
+     "ply": 81,
+     "color": "white",
+     "engine": "v5",
+     "msg": "RBSJ",
+     "nodes": 36232,
+     "ms": 23417.6,
+     "score": -21
+    },
+    {
+     "ply": 82,
+     "color": "black",
+     "engine": "v6",
+     "msg": "LBDE",
+     "nodes": 130874,
+     "ms": 81292.9,
+     "score": 46
+    },
+    {
+     "ply": 83,
+     "color": "white",
+     "engine": "v5",
+     "msg": "BJFC",
+     "nodes": 12591,
+     "ms": 9752.2,
+     "score": 47
+    },
+    {
+     "ply": 84,
+     "color": "black",
+     "engine": "v6",
+     "msg": "SKNA",
+     "nodes": 143809,
+     "ms": 88136.5,
+     "score": 38
+    },
+    {
+     "ply": 85,
+     "color": "white",
+     "engine": "v5",
+     "msg": "SLCQ",
+     "nodes": 35928,
+     "ms": 21059.5,
+     "score": -67
+    },
+    {
+     "ply": 86,
+     "color": "black",
+     "engine": "v6",
+     "msg": "DCSM",
+     "nodes": 178917,
+     "ms": 109188.1,
+     "score": 15
+    },
+    {
+     "ply": 87,
+     "color": "white",
+     "engine": "v5",
+     "msg": "MAKB",
+     "nodes": 36898,
+     "ms": 21023.7,
+     "score": -19
+    },
+    {
+     "ply": 88,
+     "color": "black",
+     "engine": "v6",
+     "msg": "LAJB",
+     "nodes": 150356,
+     "ms": 87740.7,
+     "score": 16
+    },
+    {
+     "ply": 89,
+     "color": "white",
+     "engine": "v5",
+     "msg": "EQEB",
+     "nodes": 45106,
+     "ms": 25618.4,
+     "score": -20
+    },
+    {
+     "ply": 90,
+     "color": "black",
+     "engine": "v6",
+     "msg": "FQFA",
+     "nodes": 133120,
+     "ms": 77505.4,
+     "score": 16
+    },
+    {
+     "ply": 91,
+     "color": "white",
+     "engine": "v5",
+     "msg": "GASN",
+     "nodes": 66394,
+     "ms": 37075.6,
+     "score": -18
+    },
+    {
+     "ply": 92,
+     "color": "black",
+     "engine": "v6",
+     "msg": "DBCL",
+     "nodes": 135022,
+     "ms": 75233.3,
+     "score": 15
+    },
+    {
+     "ply": 93,
+     "color": "white",
+     "engine": "v5",
+     "msg": "OAEA",
+     "nodes": 68945,
+     "ms": 38755.9,
+     "score": -18
+    },
+    {
+     "ply": 94,
+     "color": "black",
+     "engine": "v6",
+     "msg": "SOAF",
+     "nodes": 119037,
+     "ms": 69437.0,
+     "score": 13
+    },
+    {
+     "ply": 95,
+     "color": "white",
+     "engine": "v5",
+     "msg": "AGAP",
+     "nodes": 41977,
+     "ms": 22955.8,
+     "score": -19
+    },
+    {
+     "ply": 96,
+     "color": "black",
+     "engine": "v6",
+     "msg": "AONS",
+     "nodes": 144924,
+     "ms": 80766.7,
+     "score": 17
+    },
+    {
+     "ply": 97,
+     "color": "white",
+     "engine": "v5",
+     "msg": "ANAE",
+     "nodes": 48018,
+     "ms": 25970.4,
+     "score": -17
+    },
+    {
+     "ply": 98,
+     "color": "black",
+     "engine": "v6",
+     "msg": "OSAK",
+     "nodes": 130607,
+     "ms": 77755.7,
+     "score": 17
+    },
+    {
+     "ply": 99,
+     "color": "white",
+     "engine": "v5",
+     "msg": "PSJS",
+     "nodes": 21571,
+     "ms": 14234.2,
+     "score": 17
+    },
+    {
+     "ply": 100,
+     "color": "black",
+     "engine": "v6",
+     "msg": "ISKS",
+     "nodes": 45874,
+     "ms": 29675.0,
+     "score": 0
+    },
+    {
+     "ply": 101,
+     "color": "white",
+     "engine": "v5",
+     "msg": "HSAL",
+     "nodes": 22574,
+     "ms": 14525.5,
+     "score": 0
+    },
+    {
+     "ply": 102,
+     "color": "black",
+     "engine": "v6",
+     "msg": "GSSE",
+     "nodes": 37475,
+     "ms": 24467.7,
+     "score": 0
+    },
+    {
+     "ply": 103,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FSCS",
+     "nodes": 22140,
+     "ms": 14808.2,
+     "score": 0
+    },
+    {
+     "ply": 104,
+     "color": "black",
+     "engine": "v6",
+     "msg": "FBCB",
+     "nodes": 37237,
+     "ms": 24742.0,
+     "score": 0
+    },
+    {
+     "ply": 105,
+     "color": "white",
+     "engine": "v5",
+     "msg": "GBBB",
+     "nodes": 22140,
+     "ms": 14387.8,
+     "score": 0
+    },
+    {
+     "ply": 106,
+     "color": "black",
+     "engine": "v6",
+     "msg": "HBAB",
+     "nodes": 37237,
+     "ms": 23691.6,
+     "score": 0
+    },
+    {
+     "ply": 107,
+     "color": "white",
+     "engine": "v5",
+     "msg": "SCRC",
+     "nodes": 22140,
+     "ms": 14048.7,
+     "score": 0
+    },
+    {
+     "ply": 108,
+     "color": "black",
+     "engine": "v6",
+     "msg": "QCIC",
+     "nodes": 37236,
+     "ms": 23575.6,
+     "score": 0
+    },
+    {
+     "ply": 109,
+     "color": "white",
+     "engine": "v5",
+     "msg": "CCBC",
+     "nodes": 22139,
+     "ms": 14111.9,
+     "score": 0
+    },
+    {
+     "ply": 110,
+     "color": "black",
+     "engine": "v6",
+     "msg": "ACSD",
+     "nodes": 37236,
+     "ms": 23285.7,
+     "score": 0
+    },
+    {
+     "ply": 111,
+     "color": "white",
+     "engine": "v5",
+     "msg": "RDND",
+     "nodes": 22139,
+     "ms": 13732.1,
+     "score": 0
+    },
+    {
+     "ply": 112,
+     "color": "black",
+     "engine": "v6",
+     "msg": "MDJD",
+     "nodes": 37236,
+     "ms": 22958.8,
+     "score": 0
+    },
+    {
+     "ply": 113,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FDED",
+     "nodes": 22139,
+     "ms": 13551.2,
+     "score": 0
+    },
+    {
+     "ply": 114,
+     "color": "black",
+     "engine": "v6",
+     "msg": "ADDH",
+     "nodes": 37236,
+     "ms": 22666.4,
+     "score": 0
+    },
+    {
+     "ply": 115,
+     "color": "white",
+     "engine": "v5",
+     "msg": "CHAH",
+     "nodes": 22139,
+     "ms": 13379.5,
+     "score": 0
+    },
+    {
+     "ply": 116,
+     "color": "black",
+     "engine": "v6",
+     "msg": "EICI",
+     "nodes": 37236,
+     "ms": 22435.4,
+     "score": 0
+    },
+    {
+     "ply": 117,
+     "color": "white",
+     "engine": "v5",
+     "msg": "AICJ",
+     "nodes": 22139,
+     "ms": 13238.4,
+     "score": 0
+    },
+    {
+     "ply": 118,
+     "color": "black",
+     "engine": "v6",
+     "msg": "AJQK",
+     "nodes": 37236,
+     "ms": 22267.0,
+     "score": 0
+    },
+    {
+     "ply": 119,
+     "color": "white",
+     "engine": "v5",
+     "msg": "CKBK",
+     "nodes": 22137,
+     "ms": 13046.0,
+     "score": 0
+    },
+    {
+     "ply": 120,
+     "color": "black",
+     "engine": "v6",
+     "msg": "RLQL",
+     "nodes": 37236,
+     "ms": 21925.5,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "start": 37,
+   "mover_color": "white",
+   "mover_engine": "v6",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": null,
+   "plies_from_start": 120,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 2388292,
+     "ms": 2042247.8582080007,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 7062525,
+     "ms": 5984763.438582999,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v6",
+     "msg": "JNKO",
+     "nodes": 315584,
+     "ms": 578122.0,
+     "score": 47
+    },
+    {
+     "ply": 2,
+     "color": "black",
+     "engine": "v5",
+     "msg": "INJP",
+     "nodes": 17382,
+     "ms": 26513.0,
+     "score": -91
+    },
+    {
+     "ply": 3,
+     "color": "white",
+     "engine": "v6",
+     "msg": "GHIM",
+     "nodes": 220558,
+     "ms": 429945.7,
+     "score": 444
+    },
+    {
+     "ply": 4,
+     "color": "black",
+     "engine": "v5",
+     "msg": "PJHM",
+     "nodes": 98021,
+     "ms": 156375.5,
+     "score": 449
+    },
+    {
+     "ply": 5,
+     "color": "white",
+     "engine": "v6",
+     "msg": "PGHN",
+     "nodes": 81890,
+     "ms": 123596.4,
+     "score": 731
+    },
+    {
+     "ply": 6,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GOGL",
+     "nodes": 48880,
+     "ms": 68410.6,
+     "score": 211
+    },
+    {
+     "ply": 7,
+     "color": "white",
+     "engine": "v6",
+     "msg": "GMFG",
+     "nodes": 210642,
+     "ms": 296754.4,
+     "score": 186
+    },
+    {
+     "ply": 8,
+     "color": "black",
+     "engine": "v5",
+     "msg": "EFEJ",
+     "nodes": 109173,
+     "ms": 126174.2,
+     "score": 573
+    },
+    {
+     "ply": 9,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FKLP",
+     "nodes": 58582,
+     "ms": 56587.8,
+     "score": 611
+    },
+    {
+     "ply": 10,
+     "color": "black",
+     "engine": "v5",
+     "msg": "MQFH",
+     "nodes": 65749,
+     "ms": 52650.1,
+     "score": 611
+    },
+    {
+     "ply": 11,
+     "color": "white",
+     "engine": "v6",
+     "msg": "HJHF",
+     "nodes": 209744,
+     "ms": 195185.7,
+     "score": 447
+    },
+    {
+     "ply": 12,
+     "color": "black",
+     "engine": "v5",
+     "msg": "FLNO",
+     "nodes": 25684,
+     "ms": 31747.7,
+     "score": 448
+    },
+    {
+     "ply": 13,
+     "color": "white",
+     "engine": "v6",
+     "msg": "ELMF",
+     "nodes": 41892,
+     "ms": 38161.5,
+     "score": 402
+    },
+    {
+     "ply": 14,
+     "color": "black",
+     "engine": "v5",
+     "msg": "NPMG",
+     "nodes": 35166,
+     "ms": 30649.7,
+     "score": 357
+    },
+    {
+     "ply": 15,
+     "color": "white",
+     "engine": "v6",
+     "msg": "NQLO",
+     "nodes": 64748,
+     "ms": 60086.9,
+     "score": 408
+    },
+    {
+     "ply": 16,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GNQJ",
+     "nodes": 29517,
+     "ms": 25392.8,
+     "score": 443
+    },
+    {
+     "ply": 17,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FORI",
+     "nodes": 135057,
+     "ms": 120839.5,
+     "score": 387
+    },
+    {
+     "ply": 18,
+     "color": "black",
+     "engine": "v5",
+     "msg": "JOOO",
+     "nodes": 52879,
+     "ms": 48257.0,
+     "score": 139
+    },
+    {
+     "ply": 19,
+     "color": "white",
+     "engine": "v6",
+     "msg": "PNLQ",
+     "nodes": 169776,
+     "ms": 149108.6,
+     "score": 18
+    },
+    {
+     "ply": 20,
+     "color": "black",
+     "engine": "v5",
+     "msg": "LROH",
+     "nodes": 17615,
+     "ms": 15604.7,
+     "score": 21
+    },
+    {
+     "ply": 21,
+     "color": "white",
+     "engine": "v6",
+     "msg": "MPRK",
+     "nodes": 99644,
+     "ms": 91167.8,
+     "score": 183
+    },
+    {
+     "ply": 22,
+     "color": "black",
+     "engine": "v5",
+     "msg": "ORGF",
+     "nodes": 14794,
+     "ms": 12001.0,
+     "score": 69
+    },
+    {
+     "ply": 23,
+     "color": "white",
+     "engine": "v6",
+     "msg": "MRNR",
+     "nodes": 139912,
+     "ms": 119370.9,
+     "score": 266
+    },
+    {
+     "ply": 24,
+     "color": "black",
+     "engine": "v5",
+     "msg": "POQH",
+     "nodes": 79651,
+     "ms": 121973.3,
+     "score": 499
+    },
+    {
+     "ply": 25,
+     "color": "white",
+     "engine": "v6",
+     "msg": "RHQO",
+     "nodes": 55554,
+     "ms": 228044.6,
+     "score": 434
+    },
+    {
+     "ply": 26,
+     "color": "black",
+     "engine": "v5",
+     "msg": "RJNF",
+     "nodes": 79622,
+     "ms": 133917.1,
+     "score": 414
+    },
+    {
+     "ply": 27,
+     "color": "white",
+     "engine": "v6",
+     "msg": "OEQI",
+     "nodes": 67083,
+     "ms": 52101.5,
+     "score": 414
+    },
+    {
+     "ply": 28,
+     "color": "black",
+     "engine": "v5",
+     "msg": "NGKD",
+     "nodes": 125029,
+     "ms": 108763.4,
+     "score": 415
+    },
+    {
+     "ply": 29,
+     "color": "white",
+     "engine": "v6",
+     "msg": "NDEK",
+     "nodes": 55744,
+     "ms": 46635.3,
+     "score": 379
+    },
+    {
+     "ply": 30,
+     "color": "black",
+     "engine": "v5",
+     "msg": "DKKP",
+     "nodes": 75562,
+     "ms": 62819.5,
+     "score": 398
+    },
+    {
+     "ply": 31,
+     "color": "white",
+     "engine": "v6",
+     "msg": "LCGP",
+     "nodes": 95391,
+     "ms": 75419.3,
+     "score": 324
+    },
+    {
+     "ply": 32,
+     "color": "black",
+     "engine": "v5",
+     "msg": "FFEN",
+     "nodes": 16701,
+     "ms": 14389.3,
+     "score": -59
+    },
+    {
+     "ply": 33,
+     "color": "white",
+     "engine": "v6",
+     "msg": "EEHP",
+     "nodes": 59832,
+     "ms": 48912.4,
+     "score": 98
+    },
+    {
+     "ply": 34,
+     "color": "black",
+     "engine": "v5",
+     "msg": "DFGE",
+     "nodes": 54866,
+     "ms": 52286.2,
+     "score": 400
+    },
+    {
+     "ply": 35,
+     "color": "white",
+     "engine": "v6",
+     "msg": "CFEG",
+     "nodes": 98983,
+     "ms": 88195.7,
+     "score": 279
+    },
+    {
+     "ply": 36,
+     "color": "black",
+     "engine": "v5",
+     "msg": "FMFE",
+     "nodes": 62803,
+     "ms": 55047.5,
+     "score": 279
+    },
+    {
+     "ply": 37,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DOGD",
+     "nodes": 135766,
+     "ms": 109922.8,
+     "score": 143
+    },
+    {
+     "ply": 38,
+     "color": "black",
+     "engine": "v5",
+     "msg": "FPRG",
+     "nodes": 13347,
+     "ms": 10903.2,
+     "score": -110
+    },
+    {
+     "ply": 39,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DGHO",
+     "nodes": 49209,
+     "ms": 37708.3,
+     "score": 107
+    },
+    {
+     "ply": 40,
+     "color": "black",
+     "engine": "v5",
+     "msg": "CGEH",
+     "nodes": 32649,
+     "ms": 23512.7,
+     "score": 163
+    },
+    {
+     "ply": 41,
+     "color": "white",
+     "engine": "v6",
+     "msg": "HQEI",
+     "nodes": 210139,
+     "ms": 162576.6,
+     "score": -218
+    },
+    {
+     "ply": 42,
+     "color": "black",
+     "engine": "v5",
+     "msg": "HRID",
+     "nodes": 14755,
+     "ms": 10503.6,
+     "score": -167
+    },
+    {
+     "ply": 43,
+     "color": "white",
+     "engine": "v6",
+     "msg": "HCMI",
+     "nodes": 53637,
+     "ms": 39506.1,
+     "score": 146
+    },
+    {
+     "ply": 44,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GQMD",
+     "nodes": 18879,
+     "ms": 14398.9,
+     "score": -87
+    },
+    {
+     "ply": 45,
+     "color": "white",
+     "engine": "v6",
+     "msg": "ISHE",
+     "nodes": 65236,
+     "ms": 46743.2,
+     "score": 41
+    },
+    {
+     "ply": 46,
+     "color": "black",
+     "engine": "v5",
+     "msg": "HDFN",
+     "nodes": 14248,
+     "ms": 9540.2,
+     "score": -68
+    },
+    {
+     "ply": 47,
+     "color": "white",
+     "engine": "v6",
+     "msg": "EOIC",
+     "nodes": 79262,
+     "ms": 58126.0,
+     "score": 78
+    },
+    {
+     "ply": 48,
+     "color": "black",
+     "engine": "v5",
+     "msg": "CODI",
+     "nodes": 44980,
+     "ms": 31613.6,
+     "score": 7
+    },
+    {
+     "ply": 49,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DNGC",
+     "nodes": 64704,
+     "ms": 43528.3,
+     "score": -131
+    },
+    {
+     "ply": 50,
+     "color": "black",
+     "engine": "v5",
+     "msg": "JCDP",
+     "nodes": 16852,
+     "ms": 11699.9,
+     "score": 20
+    },
+    {
+     "ply": 51,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FCDE",
+     "nodes": 46042,
+     "ms": 31973.8,
+     "score": 94
+    },
+    {
+     "ply": 52,
+     "color": "black",
+     "engine": "v5",
+     "msg": "ECED",
+     "nodes": 20667,
+     "ms": 13723.8,
+     "score": 168
+    },
+    {
+     "ply": 53,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DCPM",
+     "nodes": 72277,
+     "ms": 53562.2,
+     "score": 152
+    },
+    {
+     "ply": 54,
+     "color": "black",
+     "engine": "v5",
+     "msg": "FJEM",
+     "nodes": 159192,
+     "ms": 118324.2,
+     "score": 217
+    },
+    {
+     "ply": 55,
+     "color": "white",
+     "engine": "v6",
+     "msg": "DJQF",
+     "nodes": 59747,
+     "ms": 41050.0,
+     "score": 217
+    },
+    {
+     "ply": 56,
+     "color": "black",
+     "engine": "v5",
+     "msg": "DLQP",
+     "nodes": 111145,
+     "ms": 79131.0,
+     "score": 141
+    },
+    {
+     "ply": 57,
+     "color": "white",
+     "engine": "v6",
+     "msg": "CKCP",
+     "nodes": 51173,
+     "ms": 33803.8,
+     "score": 103
+    },
+    {
+     "ply": 58,
+     "color": "black",
+     "engine": "v5",
+     "msg": "DMIR",
+     "nodes": 18917,
+     "ms": 11671.2,
+     "score": 1
+    },
+    {
+     "ply": 59,
+     "color": "white",
+     "engine": "v6",
+     "msg": "GRBN",
+     "nodes": 64822,
+     "ms": 46079.4,
+     "score": 71
+    },
+    {
+     "ply": 60,
+     "color": "black",
+     "engine": "v5",
+     "msg": "DHPP",
+     "nodes": 17939,
+     "ms": 13763.0,
+     "score": -26
+    },
+    {
+     "ply": 61,
+     "color": "white",
+     "engine": "v6",
+     "msg": "QQHS",
+     "nodes": 115379,
+     "ms": 81067.4,
+     "score": -168
+    },
+    {
+     "ply": 62,
+     "color": "black",
+     "engine": "v5",
+     "msg": "OPBM",
+     "nodes": 17399,
+     "ms": 13905.2,
+     "score": 51
+    },
+    {
+     "ply": 63,
+     "color": "white",
+     "engine": "v6",
+     "msg": "RPCM",
+     "nodes": 39713,
+     "ms": 23216.3,
+     "score": 42
+    },
+    {
+     "ply": 64,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GSDD",
+     "nodes": 67602,
+     "ms": 38457.0,
+     "score": 63
+    },
+    {
+     "ply": 65,
+     "color": "white",
+     "engine": "v6",
+     "msg": "CHOD",
+     "nodes": 273173,
+     "ms": 186019.9,
+     "score": -106
+    },
+    {
+     "ply": 66,
+     "color": "black",
+     "engine": "v5",
+     "msg": "JSOF",
+     "nodes": 32208,
+     "ms": 23419.7,
+     "score": -107
+    },
+    {
+     "ply": 67,
+     "color": "white",
+     "engine": "v6",
+     "msg": "CDCL",
+     "nodes": 318024,
+     "ms": 230147.4,
+     "score": -119
+    },
+    {
+     "ply": 68,
+     "color": "black",
+     "engine": "v5",
+     "msg": "CJCN",
+     "nodes": 40623,
+     "ms": 29217.4,
+     "score": -120
+    },
+    {
+     "ply": 69,
+     "color": "white",
+     "engine": "v6",
+     "msg": "PEBO",
+     "nodes": 350351,
+     "ms": 246910.4,
+     "score": -130
+    },
+    {
+     "ply": 70,
+     "color": "black",
+     "engine": "v5",
+     "msg": "NCRO",
+     "nodes": 40615,
+     "ms": 28775.6,
+     "score": -130
+    },
+    {
+     "ply": 71,
+     "color": "white",
+     "engine": "v6",
+     "msg": "PQPF",
+     "nodes": 329103,
+     "ms": 237564.4,
+     "score": -160
+    },
+    {
+     "ply": 72,
+     "color": "black",
+     "engine": "v5",
+     "msg": "QGPD",
+     "nodes": 17425,
+     "ms": 11387.6,
+     "score": -15
+    },
+    {
+     "ply": 73,
+     "color": "white",
+     "engine": "v6",
+     "msg": "OCAN",
+     "nodes": 191434,
+     "ms": 128360.0,
+     "score": -144
+    },
+    {
+     "ply": 74,
+     "color": "black",
+     "engine": "v5",
+     "msg": "CEEB",
+     "nodes": 23698,
+     "ms": 16314.0,
+     "score": -127
+    },
+    {
+     "ply": 75,
+     "color": "white",
+     "engine": "v6",
+     "msg": "BFKS",
+     "nodes": 149161,
+     "ms": 97131.7,
+     "score": -130
+    },
+    {
+     "ply": 76,
+     "color": "black",
+     "engine": "v5",
+     "msg": "DQFQ",
+     "nodes": 13521,
+     "ms": 9037.0,
+     "score": -115
+    },
+    {
+     "ply": 77,
+     "color": "white",
+     "engine": "v6",
+     "msg": "EQFB",
+     "nodes": 151252,
+     "ms": 92624.9,
+     "score": -144
+    },
+    {
+     "ply": 78,
+     "color": "black",
+     "engine": "v5",
+     "msg": "BPBL",
+     "nodes": 25094,
+     "ms": 16779.1,
+     "score": -136
+    },
+    {
+     "ply": 79,
+     "color": "white",
+     "engine": "v6",
+     "msg": "BKFR",
+     "nodes": 130444,
+     "ms": 78966.8,
+     "score": -153
+    },
+    {
+     "ply": 80,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GBLS",
+     "nodes": 25814,
+     "ms": 16906.5,
+     "score": -183
+    },
+    {
+     "ply": 81,
+     "color": "white",
+     "engine": "v6",
+     "msg": "ERAM",
+     "nodes": 150886,
+     "ms": 94036.0,
+     "score": -177
+    },
+    {
+     "ply": 82,
+     "color": "black",
+     "engine": "v5",
+     "msg": "DRAL",
+     "nodes": 24819,
+     "ms": 14243.3,
+     "score": -177
+    },
+    {
+     "ply": 83,
+     "color": "white",
+     "engine": "v6",
+     "msg": "OQHA",
+     "nodes": 158850,
+     "ms": 91684.5,
+     "score": -135
+    },
+    {
+     "ply": 84,
+     "color": "black",
+     "engine": "v5",
+     "msg": "RQFS",
+     "nodes": 22188,
+     "ms": 14366.8,
+     "score": -135
+    },
+    {
+     "ply": 85,
+     "color": "white",
+     "engine": "v6",
+     "msg": "ESIE",
+     "nodes": 180126,
+     "ms": 100709.8,
+     "score": -115
+    },
+    {
+     "ply": 86,
+     "color": "black",
+     "engine": "v5",
+     "msg": "AKMS",
+     "nodes": 27460,
+     "ms": 17253.1,
+     "score": -111
+    },
+    {
+     "ply": 87,
+     "color": "white",
+     "engine": "v6",
+     "msg": "AJNS",
+     "nodes": 43968,
+     "ms": 27450.5,
+     "score": -16
+    },
+    {
+     "ply": 88,
+     "color": "black",
+     "engine": "v5",
+     "msg": "GABE",
+     "nodes": 42357,
+     "ms": 28027.7,
+     "score": -177
+    },
+    {
+     "ply": 89,
+     "color": "white",
+     "engine": "v6",
+     "msg": "AOOB",
+     "nodes": 133848,
+     "ms": 75701.1,
+     "score": -107
+    },
+    {
+     "ply": 90,
+     "color": "black",
+     "engine": "v5",
+     "msg": "NBAI",
+     "nodes": 20365,
+     "ms": 13876.2,
+     "score": -106
+    },
+    {
+     "ply": 91,
+     "color": "white",
+     "engine": "v6",
+     "msg": "IAAH",
+     "nodes": 113560,
+     "ms": 67996.8,
+     "score": -69
+    },
+    {
+     "ply": 92,
+     "color": "black",
+     "engine": "v5",
+     "msg": "APAG",
+     "nodes": 26379,
+     "ms": 18710.1,
+     "score": -19
+    },
+    {
+     "ply": 93,
+     "color": "white",
+     "engine": "v6",
+     "msg": "NAAF",
+     "nodes": 153120,
+     "ms": 87648.1,
+     "score": -21
+    },
+    {
+     "ply": 94,
+     "color": "black",
+     "engine": "v5",
+     "msg": "PCOS",
+     "nodes": 26813,
+     "ms": 18534.7,
+     "score": -21
+    },
+    {
+     "ply": 95,
+     "color": "white",
+     "engine": "v6",
+     "msg": "JDLB",
+     "nodes": 151741,
+     "ms": 87769.9,
+     "score": -69
+    },
+    {
+     "ply": 96,
+     "color": "black",
+     "engine": "v5",
+     "msg": "KCSH",
+     "nodes": 44828,
+     "ms": 24386.0,
+     "score": 11
+    },
+    {
+     "ply": 97,
+     "color": "white",
+     "engine": "v6",
+     "msg": "SIFA",
+     "nodes": 150793,
+     "ms": 82980.8,
+     "score": -22
+    },
+    {
+     "ply": 98,
+     "color": "black",
+     "engine": "v5",
+     "msg": "JASF",
+     "nodes": 83393,
+     "ms": 45027.1,
+     "score": -1
+    },
+    {
+     "ply": 99,
+     "color": "white",
+     "engine": "v6",
+     "msg": "SGSO",
+     "nodes": 161136,
+     "ms": 88080.8,
+     "score": -36
+    },
+    {
+     "ply": 100,
+     "color": "black",
+     "engine": "v5",
+     "msg": "SNKB",
+     "nodes": 12257,
+     "ms": 6779.7,
+     "score": -36
+    },
+    {
+     "ply": 101,
+     "color": "white",
+     "engine": "v6",
+     "msg": "OAMA",
+     "nodes": 93249,
+     "ms": 56271.6,
+     "score": -18
+    },
+    {
+     "ply": 102,
+     "color": "black",
+     "engine": "v5",
+     "msg": "PALA",
+     "nodes": 34232,
+     "ms": 19516.1,
+     "score": 0
+    },
+    {
+     "ply": 103,
+     "color": "white",
+     "engine": "v6",
+     "msg": "RFAE",
+     "nodes": 45243,
+     "ms": 27878.8,
+     "score": 0
+    },
+    {
+     "ply": 104,
+     "color": "black",
+     "engine": "v5",
+     "msg": "ADQE",
+     "nodes": 32195,
+     "ms": 18442.9,
+     "score": 0
+    },
+    {
+     "ply": 105,
+     "color": "white",
+     "engine": "v6",
+     "msg": "EARE",
+     "nodes": 37511,
+     "ms": 22961.3,
+     "score": 0
+    },
+    {
+     "ply": 106,
+     "color": "black",
+     "engine": "v5",
+     "msg": "DARD",
+     "nodes": 22434,
+     "ms": 13601.9,
+     "score": 0
+    },
+    {
+     "ply": 107,
+     "color": "white",
+     "engine": "v6",
+     "msg": "SECC",
+     "nodes": 37276,
+     "ms": 22542.7,
+     "score": 0
+    },
+    {
+     "ply": 108,
+     "color": "black",
+     "engine": "v5",
+     "msg": "QCBC",
+     "nodes": 22227,
+     "ms": 13380.2,
+     "score": 0
+    },
+    {
+     "ply": 109,
+     "color": "white",
+     "engine": "v6",
+     "msg": "SCRC",
+     "nodes": 37551,
+     "ms": 22254.1,
+     "score": 0
+    },
+    {
+     "ply": 110,
+     "color": "black",
+     "engine": "v5",
+     "msg": "ABAC",
+     "nodes": 43732,
+     "ms": 21138.7,
+     "score": 0
+    },
+    {
+     "ply": 111,
+     "color": "white",
+     "engine": "v6",
+     "msg": "CBBB",
+     "nodes": 83861,
+     "ms": 40621.1,
+     "score": 0
+    },
+    {
+     "ply": 112,
+     "color": "black",
+     "engine": "v5",
+     "msg": "SDQD",
+     "nodes": 24634,
+     "ms": 13136.6,
+     "score": 0
+    },
+    {
+     "ply": 113,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FDBD",
+     "nodes": 37431,
+     "ms": 19302.6,
+     "score": 0
+    },
+    {
+     "ply": 114,
+     "color": "black",
+     "engine": "v5",
+     "msg": "OGBG",
+     "nodes": 14906,
+     "ms": 8141.6,
+     "score": 0
+    },
+    {
+     "ply": 115,
+     "color": "white",
+     "engine": "v6",
+     "msg": "BHCI",
+     "nodes": 37237,
+     "ms": 21703.3,
+     "score": 0
+    },
+    {
+     "ply": 116,
+     "color": "black",
+     "engine": "v5",
+     "msg": "BISJ",
+     "nodes": 22136,
+     "ms": 12800.0,
+     "score": 0
+    },
+    {
+     "ply": 117,
+     "color": "white",
+     "engine": "v6",
+     "msg": "BJSK",
+     "nodes": 37237,
+     "ms": 21246.9,
+     "score": 0
+    },
+    {
+     "ply": 118,
+     "color": "black",
+     "engine": "v5",
+     "msg": "QKSL",
+     "nodes": 22137,
+     "ms": 12581.9,
+     "score": 0
+    },
+    {
+     "ply": 119,
+     "color": "white",
+     "engine": "v6",
+     "msg": "RLQL",
+     "nodes": 37237,
+     "ms": 21097.3,
+     "score": 0
+    },
+    {
+     "ply": 120,
+     "color": "black",
+     "engine": "v5",
+     "msg": "SMRM",
+     "nodes": 22137,
+     "ms": 12346.4,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "start": 42,
+   "mover_color": "black",
+   "mover_engine": "v4",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 4,
+   "tally": {
+    "v4": {
+     "nodes": 38474,
+     "ms": 68547.04262499945,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 67073,
+     "ms": 128482.41958300423,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v4",
+     "msg": "EMJP",
+     "nodes": 21386,
+     "ms": 37707.0,
+     "score": -37
+    },
+    {
+     "ply": 2,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FMIM",
+     "nodes": 67072,
+     "ms": 128464.9,
+     "score": 272
+    },
+    {
+     "ply": 3,
+     "color": "black",
+     "engine": "v4",
+     "msg": "GNPJ",
+     "nodes": 17088,
+     "ms": 30840.0,
+     "score": 493
+    },
+    {
+     "ply": 4,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FKFJ",
+     "nodes": 1,
+     "ms": 17.5,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 42,
+   "mover_color": "black",
+   "mover_engine": "v4",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 4,
+   "tally": {
+    "v4": {
+     "nodes": 38474,
+     "ms": 70125.99158300145,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 176670,
+     "ms": 334081.17829199915,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v4",
+     "msg": "EMJP",
+     "nodes": 21386,
+     "ms": 37753.6,
+     "score": -37
+    },
+    {
+     "ply": 2,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FMIM",
+     "nodes": 176669,
+     "ms": 334080.3,
+     "score": 272
+    },
+    {
+     "ply": 3,
+     "color": "black",
+     "engine": "v4",
+     "msg": "GNPJ",
+     "nodes": 17088,
+     "ms": 32372.4,
+     "score": 493
+    },
+    {
+     "ply": 4,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FKFJ",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 42,
+   "mover_color": "black",
+   "mover_engine": "v5",
+   "opponent_engine": "v4",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 1,
+     "ms": 1.8604169999889564,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v5",
+     "msg": "IMJM",
+     "nodes": 1,
+     "ms": 1.9,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 42,
+   "mover_color": "black",
+   "mover_engine": "v5",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 1,
+     "ms": 0.8922919987526257,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v5",
+     "msg": "IMJM",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 42,
+   "mover_color": "black",
+   "mover_engine": "v6",
+   "opponent_engine": "v4",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1,
+     "ms": 0.8764170015638229,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v6",
+     "msg": "IMJM",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 42,
+   "mover_color": "black",
+   "mover_engine": "v6",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1,
+     "ms": 0.8578329980082344,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v6",
+     "msg": "IMJM",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 44,
+   "mover_color": "black",
+   "mover_engine": "v4",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 2,
+   "tally": {
+    "v4": {
+     "nodes": 33345,
+     "ms": 60910.06879199995,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 1,
+     "ms": 0.8951250019890722,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v4",
+     "msg": "HNPJ",
+     "nodes": 33345,
+     "ms": 60910.1,
+     "score": 236
+    },
+    {
+     "ply": 2,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FKFJ",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 44,
+   "mover_color": "black",
+   "mover_engine": "v4",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 2,
+   "tally": {
+    "v4": {
+     "nodes": 33345,
+     "ms": 60783.272541997576,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1,
+     "ms": 0.9018330019898713,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v4",
+     "msg": "HNPJ",
+     "nodes": 33345,
+     "ms": 60783.3,
+     "score": 236
+    },
+    {
+     "ply": 2,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FKFJ",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 44,
+   "mover_color": "black",
+   "mover_engine": "v5",
+   "opponent_engine": "v4",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 1,
+     "ms": 0.8478750023641624,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v5",
+     "msg": "IMJM",
+     "nodes": 1,
+     "ms": 0.8,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 44,
+   "mover_color": "black",
+   "mover_engine": "v5",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 1,
+     "ms": 2.007582999794977,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v5",
+     "msg": "IMJM",
+     "nodes": 1,
+     "ms": 2.0,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 44,
+   "mover_color": "black",
+   "mover_engine": "v6",
+   "opponent_engine": "v4",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1,
+     "ms": 1.969749999261694,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v6",
+     "msg": "IMJM",
+     "nodes": 1,
+     "ms": 2.0,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 44,
+   "mover_color": "black",
+   "mover_engine": "v6",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1,
+     "ms": 1.9942079998145346,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v6",
+     "msg": "IMJM",
+     "nodes": 1,
+     "ms": 2.0,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 45,
+   "mover_color": "white",
+   "mover_engine": "v4",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 2,
+   "tally": {
+    "v4": {
+     "nodes": 34302,
+     "ms": 63796.62145800103,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 1,
+     "ms": 0.9116670007642824,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v4",
+     "msg": "KQPG",
+     "nodes": 34302,
+     "ms": 63796.6,
+     "score": 144
+    },
+    {
+     "ply": 2,
+     "color": "black",
+     "engine": "v5",
+     "msg": "IMJM",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 45,
+   "mover_color": "white",
+   "mover_engine": "v4",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 2,
+   "tally": {
+    "v4": {
+     "nodes": 34302,
+     "ms": 63266.98595900234,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1,
+     "ms": 2.246874999400461,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v4",
+     "msg": "KQPG",
+     "nodes": 34302,
+     "ms": 63267.0,
+     "score": 144
+    },
+    {
+     "ply": 2,
+     "color": "black",
+     "engine": "v6",
+     "msg": "IMJM",
+     "nodes": 1,
+     "ms": 2.2,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 45,
+   "mover_color": "white",
+   "mover_engine": "v5",
+   "opponent_engine": "v4",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 1,
+     "ms": 1.9465840014163405,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FKFJ",
+     "nodes": 1,
+     "ms": 1.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 45,
+   "mover_color": "white",
+   "mover_engine": "v5",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 1,
+     "ms": 0.8645420020911843,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FKFJ",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 45,
+   "mover_color": "white",
+   "mover_engine": "v6",
+   "opponent_engine": "v4",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1,
+     "ms": 0.8555829990655184,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FKFJ",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 45,
+   "mover_color": "white",
+   "mover_engine": "v6",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1,
+     "ms": 0.8594999999331776,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FKFJ",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 46,
+   "mover_color": "black",
+   "mover_engine": "v4",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 2,
+   "tally": {
+    "v4": {
+     "nodes": 52325,
+     "ms": 95995.63154100179,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 1,
+     "ms": 0.8901250002963934,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v4",
+     "msg": "HNFO",
+     "nodes": 52325,
+     "ms": 95995.6,
+     "score": -48
+    },
+    {
+     "ply": 2,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FKFJ",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 46,
+   "mover_color": "black",
+   "mover_engine": "v4",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 2,
+   "tally": {
+    "v4": {
+     "nodes": 52325,
+     "ms": 95761.6234590023,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1,
+     "ms": 0.8699579993844964,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v4",
+     "msg": "HNFO",
+     "nodes": 52325,
+     "ms": 95761.6,
+     "score": -48
+    },
+    {
+     "ply": 2,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FKFJ",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 46,
+   "mover_color": "black",
+   "mover_engine": "v5",
+   "opponent_engine": "v4",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 1,
+     "ms": 0.8711659975233488,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v5",
+     "msg": "IMJM",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 46,
+   "mover_color": "black",
+   "mover_engine": "v5",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 1,
+     "ms": 1.9289580013719387,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v5",
+     "msg": "IMJM",
+     "nodes": 1,
+     "ms": 1.9,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 46,
+   "mover_color": "black",
+   "mover_engine": "v6",
+   "opponent_engine": "v4",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1,
+     "ms": 1.9858330015267711,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v6",
+     "msg": "IMJM",
+     "nodes": 1,
+     "ms": 2.0,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 46,
+   "mover_color": "black",
+   "mover_engine": "v6",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1,
+     "ms": 1.9628330010164063,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "black",
+     "engine": "v6",
+     "msg": "IMJM",
+     "nodes": 1,
+     "ms": 2.0,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 47,
+   "mover_color": "white",
+   "mover_engine": "v4",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 26,
+   "tally": {
+    "v4": {
+     "nodes": 339341,
+     "ms": 670929.839709006,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 522091,
+     "ms": 1078727.6916250014,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v4",
+     "msg": "JMKP",
+     "nodes": 29801,
+     "ms": 54832.3,
+     "score": -210
+    },
+    {
+     "ply": 2,
+     "color": "black",
+     "engine": "v5",
+     "msg": "KROH",
+     "nodes": 43744,
+     "ms": 85627.1,
+     "score": -234
+    },
+    {
+     "ply": 3,
+     "color": "white",
+     "engine": "v4",
+     "msg": "EJEN",
+     "nodes": 57146,
+     "ms": 107821.1,
+     "score": 112
+    },
+    {
+     "ply": 4,
+     "color": "black",
+     "engine": "v5",
+     "msg": "DKMF",
+     "nodes": 35528,
+     "ms": 70936.8,
+     "score": 67
+    },
+    {
+     "ply": 5,
+     "color": "white",
+     "engine": "v4",
+     "msg": "NGFJ",
+     "nodes": 23736,
+     "ms": 46196.7,
+     "score": -83
+    },
+    {
+     "ply": 6,
+     "color": "black",
+     "engine": "v5",
+     "msg": "FKIN",
+     "nodes": 37711,
+     "ms": 76359.9,
+     "score": -90
+    },
+    {
+     "ply": 7,
+     "color": "white",
+     "engine": "v4",
+     "msg": "IODN",
+     "nodes": 30730,
+     "ms": 59193.6,
+     "score": 36
+    },
+    {
+     "ply": 8,
+     "color": "black",
+     "engine": "v5",
+     "msg": "CNFF",
+     "nodes": 36182,
+     "ms": 71535.1,
+     "score": 13
+    },
+    {
+     "ply": 9,
+     "color": "white",
+     "engine": "v4",
+     "msg": "NFPM",
+     "nodes": 35475,
+     "ms": 70616.9,
+     "score": 81
+    },
+    {
+     "ply": 10,
+     "color": "black",
+     "engine": "v5",
+     "msg": "OGKC",
+     "nodes": 22057,
+     "ms": 48947.2,
+     "score": 78
+    },
+    {
+     "ply": 11,
+     "color": "white",
+     "engine": "v4",
+     "msg": "EEOF",
+     "nodes": 21746,
+     "ms": 45654.0,
+     "score": 166
+    },
+    {
+     "ply": 12,
+     "color": "black",
+     "engine": "v5",
+     "msg": "HNMI",
+     "nodes": 40670,
+     "ms": 92663.5,
+     "score": 180
+    },
+    {
+     "ply": 13,
+     "color": "white",
+     "engine": "v4",
+     "msg": "PFHO",
+     "nodes": 3506,
+     "ms": 7118.6,
+     "score": 100
+    },
+    {
+     "ply": 14,
+     "color": "black",
+     "engine": "v5",
+     "msg": "ELQH",
+     "nodes": 87327,
+     "ms": 184148.7,
+     "score": -57
+    },
+    {
+     "ply": 15,
+     "color": "white",
+     "engine": "v4",
+     "msg": "RHDM",
+     "nodes": 2248,
+     "ms": 3891.9,
+     "score": -57
+    },
+    {
+     "ply": 16,
+     "color": "black",
+     "engine": "v5",
+     "msg": "JOQF",
+     "nodes": 44166,
+     "ms": 92129.7,
+     "score": -283
+    },
+    {
+     "ply": 17,
+     "color": "white",
+     "engine": "v4",
+     "msg": "DORG",
+     "nodes": 19593,
+     "ms": 39804.0,
+     "score": -208
+    },
+    {
+     "ply": 18,
+     "color": "black",
+     "engine": "v5",
+     "msg": "RFNO",
+     "nodes": 44211,
+     "ms": 92261.7,
+     "score": -126
+    },
+    {
+     "ply": 19,
+     "color": "white",
+     "engine": "v4",
+     "msg": "DPPE",
+     "nodes": 12044,
+     "ms": 24520.6,
+     "score": -174
+    },
+    {
+     "ply": 20,
+     "color": "black",
+     "engine": "v5",
+     "msg": "QDDQ",
+     "nodes": 61653,
+     "ms": 121276.7,
+     "score": -265
+    },
+    {
+     "ply": 21,
+     "color": "white",
+     "engine": "v4",
+     "msg": "CPLO",
+     "nodes": 12943,
+     "ms": 26187.9,
+     "score": -154
+    },
+    {
+     "ply": 22,
+     "color": "black",
+     "engine": "v5",
+     "msg": "BQLC",
+     "nodes": 47430,
+     "ms": 104357.3,
+     "score": -385
+    },
+    {
+     "ply": 23,
+     "color": "white",
+     "engine": "v4",
+     "msg": "RJPD",
+     "nodes": 63036,
+     "ms": 130289.0,
+     "score": -206
+    },
+    {
+     "ply": 24,
+     "color": "black",
+     "engine": "v5",
+     "msg": "PCRK",
+     "nodes": 21411,
+     "ms": 38482.2,
+     "score": -128
+    },
+    {
+     "ply": 25,
+     "color": "white",
+     "engine": "v4",
+     "msg": "JQMP",
+     "nodes": 27337,
+     "ms": 54803.1,
+     "score": -96
+    },
+    {
+     "ply": 26,
+     "color": "black",
+     "engine": "v5",
+     "msg": "NCOC",
+     "nodes": 1,
+     "ms": 1.9,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 47,
+   "mover_color": "white",
+   "mover_engine": "v4",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 26,
+   "tally": {
+    "v4": {
+     "nodes": 339341,
+     "ms": 594551.2205829982,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1006370,
+     "ms": 1804365.0072920064,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v4",
+     "msg": "JMKP",
+     "nodes": 29801,
+     "ms": 54633.2,
+     "score": -210
+    },
+    {
+     "ply": 2,
+     "color": "black",
+     "engine": "v6",
+     "msg": "KROH",
+     "nodes": 85174,
+     "ms": 160793.9,
+     "score": -234
+    },
+    {
+     "ply": 3,
+     "color": "white",
+     "engine": "v4",
+     "msg": "EJEN",
+     "nodes": 57146,
+     "ms": 108729.3,
+     "score": 112
+    },
+    {
+     "ply": 4,
+     "color": "black",
+     "engine": "v6",
+     "msg": "DKMF",
+     "nodes": 37515,
+     "ms": 71287.1,
+     "score": 67
+    },
+    {
+     "ply": 5,
+     "color": "white",
+     "engine": "v4",
+     "msg": "NGFJ",
+     "nodes": 23736,
+     "ms": 46461.3,
+     "score": -83
+    },
+    {
+     "ply": 6,
+     "color": "black",
+     "engine": "v6",
+     "msg": "FKIN",
+     "nodes": 38384,
+     "ms": 70662.9,
+     "score": -90
+    },
+    {
+     "ply": 7,
+     "color": "white",
+     "engine": "v4",
+     "msg": "IODN",
+     "nodes": 30730,
+     "ms": 59431.5,
+     "score": 36
+    },
+    {
+     "ply": 8,
+     "color": "black",
+     "engine": "v6",
+     "msg": "CNFF",
+     "nodes": 73070,
+     "ms": 134102.2,
+     "score": 13
+    },
+    {
+     "ply": 9,
+     "color": "white",
+     "engine": "v4",
+     "msg": "NFPM",
+     "nodes": 35475,
+     "ms": 75543.9,
+     "score": 81
+    },
+    {
+     "ply": 10,
+     "color": "black",
+     "engine": "v6",
+     "msg": "OGKC",
+     "nodes": 70450,
+     "ms": 140005.8,
+     "score": 78
+    },
+    {
+     "ply": 11,
+     "color": "white",
+     "engine": "v4",
+     "msg": "EEOF",
+     "nodes": 21746,
+     "ms": 43331.3,
+     "score": 166
+    },
+    {
+     "ply": 12,
+     "color": "black",
+     "engine": "v6",
+     "msg": "HNMI",
+     "nodes": 123664,
+     "ms": 271187.7,
+     "score": 180
+    },
+    {
+     "ply": 13,
+     "color": "white",
+     "engine": "v4",
+     "msg": "PFHO",
+     "nodes": 3506,
+     "ms": 6585.1,
+     "score": 100
+    },
+    {
+     "ply": 14,
+     "color": "black",
+     "engine": "v6",
+     "msg": "ELQH",
+     "nodes": 219416,
+     "ms": 402808.5,
+     "score": -57
+    },
+    {
+     "ply": 15,
+     "color": "white",
+     "engine": "v4",
+     "msg": "RHDM",
+     "nodes": 2248,
+     "ms": 3591.9,
+     "score": -57
+    },
+    {
+     "ply": 16,
+     "color": "black",
+     "engine": "v6",
+     "msg": "JOQF",
+     "nodes": 107890,
+     "ms": 187579.5,
+     "score": -283
+    },
+    {
+     "ply": 17,
+     "color": "white",
+     "engine": "v4",
+     "msg": "DORG",
+     "nodes": 19593,
+     "ms": 29740.5,
+     "score": -208
+    },
+    {
+     "ply": 18,
+     "color": "black",
+     "engine": "v6",
+     "msg": "RFNO",
+     "nodes": 81640,
+     "ms": 122350.7,
+     "score": -126
+    },
+    {
+     "ply": 19,
+     "color": "white",
+     "engine": "v4",
+     "msg": "DPPE",
+     "nodes": 12044,
+     "ms": 18877.7,
+     "score": -174
+    },
+    {
+     "ply": 20,
+     "color": "black",
+     "engine": "v6",
+     "msg": "QDDQ",
+     "nodes": 51966,
+     "ms": 71141.0,
+     "score": -265
+    },
+    {
+     "ply": 21,
+     "color": "white",
+     "engine": "v4",
+     "msg": "CPLO",
+     "nodes": 12943,
+     "ms": 20067.2,
+     "score": -154
+    },
+    {
+     "ply": 22,
+     "color": "black",
+     "engine": "v6",
+     "msg": "BQLC",
+     "nodes": 63538,
+     "ms": 98887.0,
+     "score": -385
+    },
+    {
+     "ply": 23,
+     "color": "white",
+     "engine": "v4",
+     "msg": "RJPD",
+     "nodes": 63036,
+     "ms": 91058.4,
+     "score": -206
+    },
+    {
+     "ply": 24,
+     "color": "black",
+     "engine": "v6",
+     "msg": "PCRK",
+     "nodes": 53662,
+     "ms": 73557.8,
+     "score": -96
+    },
+    {
+     "ply": 25,
+     "color": "white",
+     "engine": "v4",
+     "msg": "JQMP",
+     "nodes": 27337,
+     "ms": 36499.9,
+     "score": -96
+    },
+    {
+     "ply": 26,
+     "color": "black",
+     "engine": "v6",
+     "msg": "NCOC",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": 20000
+    }
+   ]
+  },
+  {
+   "start": 47,
+   "mover_color": "white",
+   "mover_engine": "v5",
+   "opponent_engine": "v4",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 1,
+     "ms": 0.866459002281772,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FKFJ",
+     "nodes": 1,
+     "ms": 0.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 47,
+   "mover_color": "white",
+   "mover_engine": "v5",
+   "opponent_engine": "v6",
+   "floor": 4,
+   "winner": "v5",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 1,
+     "ms": 1.9116669973300304,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v5",
+     "msg": "FKFJ",
+     "nodes": 1,
+     "ms": 1.9,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 47,
+   "mover_color": "white",
+   "mover_engine": "v6",
+   "opponent_engine": "v4",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1,
+     "ms": 2.1425829982035793,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FKFJ",
+     "nodes": 1,
+     "ms": 2.1,
+     "score": -20000
+    }
+   ]
+  },
+  {
+   "start": 47,
+   "mover_color": "white",
+   "mover_engine": "v6",
+   "opponent_engine": "v5",
+   "floor": 4,
+   "winner": "v6",
+   "plies_from_start": 1,
+   "tally": {
+    "v4": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v5": {
+     "nodes": 0,
+     "ms": 0.0,
+     "book_hits": 0
+    },
+    "v6": {
+     "nodes": 1,
+     "ms": 2.0225839980412275,
+     "book_hits": 0
+    }
+   },
+   "moves": [
+    {
+     "ply": 1,
+     "color": "white",
+     "engine": "v6",
+     "msg": "FKFJ",
+     "nodes": 1,
+     "ms": 2.0,
+     "score": -20000
+    }
+   ]
+  }
+ ]
+}

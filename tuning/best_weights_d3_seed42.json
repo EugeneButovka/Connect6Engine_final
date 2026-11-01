@@ -1,0 +1,35 @@
+{
+  "best": {
+    "single": 1,
+    "pair": 11,
+    "triple": 54,
+    "four": 828,
+    "factor_two": 1,
+    "factor_many": 2,
+    "threat": 798
+  },
+  "base": {
+    "single": 1,
+    "pair": 10,
+    "triple": 100,
+    "four": 1000,
+    "factor_two": 2,
+    "factor_many": 3,
+    "threat": 1000
+  },
+  "best_fitness": 7.5,
+  "best_generation": 2,
+  "vs_base": {
+    "as_black": "win",
+    "as_white": "win"
+  },
+  "settings": {
+    "population": 6,
+    "generations": 6,
+    "depth": 3,
+    "max_plies": 60,
+    "seed": 42,
+    "elite": 2,
+    "mutation_rate": 0.35
+  }
+}

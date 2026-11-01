@@ -1,0 +1,12 @@
+engine.log
+__pycache__/
+build
+dist
+main.spec
+tia-engine.log
+env/
+.venv/
+.idea
+benchmarks/cloudict/gameEngine
+/benchmarks/assignment_coverage/logs/
+/benchmarks/assignment_coverage/records/

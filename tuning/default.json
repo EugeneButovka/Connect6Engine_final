@@ -1,0 +1,9 @@
+{
+  "single": 1,
+  "pair": 10,
+  "triple": 100,
+  "four": 1000,
+  "factor_two": 2,
+  "factor_many": 3,
+  "threat": 1000
+}
