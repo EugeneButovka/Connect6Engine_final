@@ -1,3 +1,5 @@
+import multiprocessing
+
 from connect6.game_engine import GameEngine
 
 
@@ -7,4 +9,5 @@ def main():
 
 
 if __name__ == "__main__":
+    multiprocessing.freeze_support()
     main()

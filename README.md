@@ -51,21 +51,29 @@ move LLIJ
 
 ## Build an executable
 
-To build the compiled engine — the mypyc build of the whole `connect6` package plus a launcher, under `dist/`:
+To build the compiled engine — the mypyc build of the whole `connect6` package bundled into a single executable, under `dist/`:
 
 ```sh
 uv run --group build python scripts/build_executable.py
 ```
 
-The command compiles the package with mypyc, stages the extension modules as `dist/lib/connect6`, copies the shipped weights and opening book to `dist/lib/tuning`, and writes the `dist/Connect6_Butovka_Ahmed` launcher (the name comes from `ENGINE_NAME`). The launcher pins `WEIGHTS_FILE` and `BOOK_FILE` to the staged files — explicit environment values win — and exports `PYTHONPATH`, so the engine's own worker processes import the compiled package too. The build ends with a protocol smoke test. To additionally verify the compilation: `uv run --group build python scripts/verify_compiled.py` asserts identical moves, scores and node counts between the interpreted and compiled builds, and reports the wall speedup.
+The command compiles the package with mypyc, stages the extension modules as `dist/lib/connect6`, copies the shipped weights and opening book to `dist/lib/tuning`, and packs the modules, their shared runtime and the three `tuning/` artifacts with PyInstaller into `dist/Connect6_Butovka_Ahmed` (the name comes from `ENGINE_NAME`) — a self-contained executable that needs nothing else on disk. The build targets the current operating system — macOS, Windows or Linux; a C compiler is required for mypyc (Xcode tools, MSVC Build Tools or gcc), and on Windows the executable is `Connect6_Butovka_Ahmed.exe`. The bundled entry mirrors `main.py`, and both call `multiprocessing.freeze_support()` at the top of `__main__`: a frozen executable's spawned workers re-execute the app's own binary, and the call diverts each child into worker mode instead of booting the whole engine again — a no-op in interpreted runs. The build ends with a protocol smoke test. To additionally verify the compilation: `uv run --group build python scripts/verify_compiled.py` asserts identical moves, scores and node counts between the interpreted and compiled builds, and reports the wall speedup.
 
-The legacy alternative — a PyInstaller one-file build (also captured by the `main.spec` at the repository root):
+The `--launcher` alternative produces the same compiled build but writes a `dist/Connect6_Butovka_Ahmed` launcher script instead of the bundle (on Windows, a `Connect6_Butovka_Ahmed.bat` wrapper that runs the same launcher script with the recorded interpreter): it pins `WEIGHTS_FILE` and `BOOK_FILE` to the staged files — explicit environment values win — and exports `PYTHONPATH`, so the engine's own worker processes import the compiled package too.
+
+The legacy alternative — a PyInstaller one-file build (also captured by the `Connect6_Butovka_Ahmed.spec` at the repository root) — **supported on all our operating systems: macOS, Windows and Linux**:
 
 ```sh
-uv run pyinstaller --onefile --add-data "tuning/winner.json:tuning" --add-data "tuning/default.json:tuning" --add-data "tuning/opening_book.json:tuning" main.py
+uv run pyinstaller --onefile --name Connect6_Butovka_Ahmed --add-data "tuning/winner.json:tuning" --add-data "tuning/default.json:tuning" --add-data "tuning/opening_book.json:tuning" main.py
 ```
 
-It bundles the interpreter, the package and the three `tuning/` artifacts into a single `dist/main` executable; the artifacts land beside the bundled package, so the default weight and book lookups (`connect6/defines.py` resolves them relative to the package) keep working. Unlike the mypyc build, this one ships interpreted bytecode — no compilation speedup.
+On Windows the `--add-data` separator is `;` instead of `:`, and the executable is `dist/Connect6_Butovka_Ahmed.exe`:
+
+```sh
+uv run pyinstaller --onefile --name Connect6_Butovka_Ahmed --add-data "tuning/winner.json;tuning" --add-data "tuning/default.json;tuning" --add-data "tuning/opening_book.json;tuning" main.py
+```
+
+It bundles the interpreter, the package and the three `tuning/` artifacts into a single `dist/Connect6_Butovka_Ahmed` executable — the same path the mypyc build writes, so the last build wins; the artifacts land beside the bundled package, so the default weight and book lookups (`connect6/defines.py` resolves them relative to the package) keep working. Unlike the mypyc build, this one ships interpreted bytecode — no compilation speedup.
 
 ## Commands
 

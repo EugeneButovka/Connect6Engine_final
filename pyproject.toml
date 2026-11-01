@@ -22,6 +22,7 @@ dev = [
     "nbclient>=0.10.2",
 ]
 build = [
+    "pyinstaller>=6",
     "setuptools>=75",
 ]
 
