@@ -1,7 +1,9 @@
 engine.log
 __pycache__/
 build
-dist
+dist/*
+!dist/Connect6_Butovka_Ahmed
+!dist/Connect6_Butovka_Ahmed.exe
 *.spec
 tia-engine.log
 env/

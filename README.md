@@ -15,11 +15,22 @@ Authors: Evgenii Butovka, Hasnaat
 
 ## Contents
 
-[Quick start](#quick-start) · [Build an executable](#build-an-executable) · [Commands](#commands) · [Architecture](#architecture) · [Tests](#tests) · [Type checking](#type-checking) · [Benchmarks](#benchmarks) · [Tuning](#tuning)
+[Engine executables](#engine-executables) · [Quick start](#quick-start) · [Build an executable](#build-an-executable) · [Commands](#commands) · [Architecture](#architecture) · [Tests](#tests) · [Type checking](#type-checking) · [Benchmarks](#benchmarks) · [Tuning](#tuning)
+
+## Engine executables
+
+- **macOS and Linux:** `dist/Connect6_Butovka_Ahmed`
+- **Windows:** `dist/Connect6_Butovka_Ahmed.exe`
 
 ## Quick start
 
-[uv](https://docs.astral.sh/uv/) manages Python 3.14 and the virtual environment automatically:
+Without uv — any Python 3.14+ works, the engine is standard-library only:
+
+```sh
+python main.py
+```
+
+With [uv](https://docs.astral.sh/uv/) managing Python 3.14 and the virtual environment automatically:
 
 ```sh
 uv run game6        # installed console script
@@ -53,21 +64,43 @@ move LLIJ
 
 To build the compiled engine — the mypyc build of the whole `connect6` package bundled into a single executable, under `dist/`:
 
+Without uv (Python 3.14+):
+
+```sh
+python -m pip install "setuptools>=75" "pyinstaller>=6" "mypy>=2.3.1"   # mypyc ships inside the mypy wheel
+python scripts/build_executable.py
+```
+
+With uv:
+
 ```sh
 uv run --group build python scripts/build_executable.py
 ```
 
-The command compiles the package with mypyc, stages the extension modules as `dist/lib/connect6`, copies the shipped weights and opening book to `dist/lib/tuning`, and packs the modules, their shared runtime and the three `tuning/` artifacts with PyInstaller into `dist/Connect6_Butovka_Ahmed` (the name comes from `ENGINE_NAME`) — a self-contained executable that needs nothing else on disk. The build targets the current operating system — macOS, Windows or Linux; a C compiler is required for mypyc (Xcode tools, MSVC Build Tools or gcc), and on Windows the executable is `Connect6_Butovka_Ahmed.exe`. The bundled entry mirrors `main.py`, and both call `multiprocessing.freeze_support()` at the top of `__main__`: a frozen executable's spawned workers re-execute the app's own binary, and the call diverts each child into worker mode instead of booting the whole engine again — a no-op in interpreted runs. The build ends with a protocol smoke test. To additionally verify the compilation: `uv run --group build python scripts/verify_compiled.py` asserts identical moves, scores and node counts between the interpreted and compiled builds, and reports the wall speedup.
+The command compiles the package with mypyc, stages the extension modules as `dist/lib/connect6`, copies the shipped weights and opening book to `dist/lib/tuning`, and packs the modules, their shared runtime and the three `tuning/` artifacts with PyInstaller into `dist/Connect6_Butovka_Ahmed` (the name comes from `ENGINE_NAME`) — a self-contained executable that needs nothing else on disk. The build targets the current operating system — macOS, Windows or Linux; a C compiler is required for mypyc (Xcode tools, MSVC Build Tools or gcc), and on Windows the executable is `Connect6_Butovka_Ahmed.exe`. The bundled entry mirrors `main.py`, and both call `multiprocessing.freeze_support()` at the top of `__main__`: a frozen executable's spawned workers re-execute the app's own binary, and the call diverts each child into worker mode instead of booting the whole engine again — a no-op in interpreted runs. The build ends with a protocol smoke test. To additionally verify the compilation: `python scripts/verify_compiled.py` (with uv: `uv run --group build python scripts/verify_compiled.py`) asserts identical moves, scores and node counts between the interpreted and compiled builds, and reports the wall speedup.
 
 The `--launcher` alternative produces the same compiled build but writes a `dist/Connect6_Butovka_Ahmed` launcher script instead of the bundle (on Windows, a `Connect6_Butovka_Ahmed.bat` wrapper that runs the same launcher script with the recorded interpreter): it pins `WEIGHTS_FILE` and `BOOK_FILE` to the staged files — explicit environment values win — and exports `PYTHONPATH`, so the engine's own worker processes import the compiled package too.
 
-The legacy alternative — a PyInstaller one-file build (also captured by the `Connect6_Butovka_Ahmed.spec` at the repository root) — **supported on all our operating systems: macOS, Windows and Linux**:
+The legacy alternative — a PyInstaller one-file build (also captured by the `Connect6_Butovka_Ahmed.spec` at the repository root) — **supported on all our operating systems: macOS, Windows and Linux**. Without uv (Python 3.14+):
+
+```sh
+python -m pip install "pyinstaller>=6"
+python -m PyInstaller --onefile --name Connect6_Butovka_Ahmed --add-data "tuning/winner.json:tuning" --add-data "tuning/default.json:tuning" --add-data "tuning/opening_book.json:tuning" main.py
+```
+
+With uv:
 
 ```sh
 uv run pyinstaller --onefile --name Connect6_Butovka_Ahmed --add-data "tuning/winner.json:tuning" --add-data "tuning/default.json:tuning" --add-data "tuning/opening_book.json:tuning" main.py
 ```
 
-On Windows the `--add-data` separator is `;` instead of `:`, and the executable is `dist/Connect6_Butovka_Ahmed.exe`:
+On Windows the `--add-data` separator is `;` instead of `:`, and the executable is `dist/Connect6_Butovka_Ahmed.exe`. Without uv:
+
+```sh
+python -m PyInstaller --onefile --name Connect6_Butovka_Ahmed --add-data "tuning/winner.json;tuning" --add-data "tuning/default.json;tuning" --add-data "tuning/opening_book.json;tuning" main.py
+```
+
+With uv:
 
 ```sh
 uv run pyinstaller --onefile --name Connect6_Butovka_Ahmed --add-data "tuning/winner.json;tuning" --add-data "tuning/default.json;tuning" --add-data "tuning/opening_book.json;tuning" main.py
@@ -116,7 +149,7 @@ connect6/                           the engine package
 ├── opening_book.py                 opening book: position keys, JSON load, recorded-move lookup
 └── defines.py                      constants, enums, frozen `Position`/`Move`, tuple aliases
 tests/                              the test suite
-└── test.py                         98 deterministic tests, run with `uv run tests/test.py`
+└── test.py                         98 deterministic tests, run with `python tests/test.py` or `uv run tests/test.py`
 benchmarks/                         the benchmarks
 ├── battery.json                     the battery's 19 curated positions
 ├── trajectory.json                  a recorded 48-ply self-play game
@@ -148,7 +181,7 @@ tuning/                             the experiments and their generated artifact
 ├── best_weights_d3_seed7.json      GA champion, seed 7
 └── default.json                    the hand-tuned configuration: fallback and tuner baseline
 scripts/                            auxiliary tooling (build, verification, notebook runs)
-├── build_executable.py             the mypyc build: extensions, staged weights/book, launcher
+├── build_executable.py             the executable build: mypyc modules and staged tuning, bundled onefile
 ├── verify_compiled.py              compiled-vs-interpreted verification
 ├── _verify_collect.py              the collection helper the verifier spawns
 └── nbclient_run.py                 the stored-output notebook runner
@@ -160,6 +193,14 @@ scripts/                            auxiliary tooling (build, verification, note
 - **Opening book** (`opening_book.py`) — position keys are stone inventories; a hit is applied and the search skipped, a miss or invalid entry falls back to the search silently.
 
 ## Tests
+
+Without uv (the suite is standard-library only):
+
+```sh
+python tests/test.py
+```
+
+With uv:
 
 ```sh
 uv run tests/test.py
@@ -180,6 +221,15 @@ The suite pins `WEIGHTS_FILE` and `BOOK_FILE` before importing the engine, so ev
 
 ## Type checking
 
+Without uv:
+
+```sh
+python -m pip install "mypy>=2.3.1"
+python -m mypy
+```
+
+With uv:
+
 ```sh
 uv run mypy
 ```
@@ -188,7 +238,7 @@ The codebase is fully typed: `Color`/`GameResult` enums, frozen `Position`/`Move
 
 ## Benchmarks
 
-The benchmark notebooks plus the external tournament are runnable from the command line or in Jupyter. From the command line: `uv run python scripts/nbclient_run.py benchmarks/<notebook>.ipynb` re-executes a notebook headlessly and writes its stored outputs back. The notebooks pin their weights before importing the engine and assert the deterministic numbers they measure, so a clean run is itself a validation — only wall times vary between runs.
+The benchmark notebooks plus the external tournament are runnable from the command line or in Jupyter. From the command line: `python scripts/nbclient_run.py benchmarks/<notebook>.ipynb` re-executes a notebook headlessly and writes its stored outputs back (it needs `nbclient`, `ipykernel` and `matplotlib` installed; with uv, `uv run python scripts/nbclient_run.py ...` provides them automatically). The notebooks pin their weights before importing the engine and assert the deterministic numbers they measure, so a clean run is itself a validation — only wall times vary between runs.
 
 - `benchmarks/perf_depth_v1_min_max.ipynb` — the min-max baseline: `search_min_max` at depths 1–4, against the theoretical `O(B^depth)` model.
 - `benchmarks/perf_depth_v2_alpha_beta.ipynb` — min-max at depths 1–4 and alpha-beta at depths 1–5, asserting identical scores, with the ideal `O(B^(depth/2))` guide.
@@ -196,7 +246,7 @@ The benchmark notebooks plus the external tournament are runnable from the comma
 - `benchmarks/perf_search_v5_layer.ipynb` — the v5 layer vs the v4 engine over the common trajectory: node costs, verdict flips, the floor-invariance ladder and the deepening probe.
 - `benchmarks/perf_search_v6_split.ipynb` — the split root vs the v5 engine on the same trajectory: the regression fixture, the window/PVS depth ladder and the cost exhibit.
 - `benchmarks/perf_versions_v1_v6.ipynb` — the version timeline v1-v6: twelve games in both colors, cost tables and the six-version genealogy.
-- The battery runner (`uv run tuning/harness.py battery [--jobs N]`) — the nineteen curated positions played out in the deployment configuration; parallel and sequential results are identical.
+- The battery runner (`python tuning/harness.py battery [--jobs N]`, or `uv run tuning/harness.py battery [--jobs N]`) — the nineteen curated positions played out in the deployment configuration; parallel and sequential results are identical.
 - `benchmarks/perf_position_battery.ipynb` — the assert-validated record of the battery: all verdicts, transcript identities, ply counts and node budgets.
 - `benchmarks/tournament_cloudict.py` — the compiled engine against the reference Cloudict binary, six openings, both colors, depth floors 3-5, every move recorded to `benchmarks/tournament_cloudict.json` (needs `benchmarks/cloudict/patterns.in` beside the binary).
 - `benchmarks/tournament_verdicts.py` — v4/v5/v6 games started from the trajectory's verdict-flip and budget-boundary prefixes, with the floor-3/4/5 verdict probe first; recorded to `benchmarks/tournament_verdicts.json`.
@@ -204,6 +254,16 @@ The benchmark notebooks plus the external tournament are runnable from the comma
 - `benchmarks/assignment_coverage/` — three coverage notebooks: the position battery against Cloudict, per-version search metrics on two boards, and reply timing with a protocol smoke test (records under `benchmarks/assignment_coverage/records/`).
 
 ## Tuning
+
+Without uv (the scripts are standard-library only):
+
+```sh
+python tuning/run_experiment.py                          # repeat the experiment (~15 min) and refresh tuning/winner.json
+python tuning/genetic_tuner.py --depth 3 --generations 6 --population 6 --out tuning/best.json
+python tuning/generate_opening_book.py                   # regenerate tuning/opening_book.json by self-play (~1 min)
+```
+
+With uv:
 
 ```sh
 uv run tuning/run_experiment.py                          # repeat the experiment (~15 min) and refresh tuning/winner.json
