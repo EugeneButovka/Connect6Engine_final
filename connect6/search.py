@@ -1,4 +1,7 @@
+import time
+
 from .defines import (
+    DEADLINE_CHECK_NODES,
     FORWARD_WIDTHS,
     MAXINT,
     MININT,
@@ -20,6 +23,10 @@ from .candidates import generate_candidate_moves, generate_scored_candidate_move
 from .evaluation import evaluate
 
 
+class SearchDeadlineExceeded(Exception):
+    """Budget-mode abort raised once the wall deadline passes mid-subtree."""
+
+
 def search_min_max(board: Board, color: Color, depth: int, pre_move: Move, stats: SearchStats) -> SearchResult:
     return _search(board, color, depth, pre_move, stats, prune=False)
 
@@ -39,6 +46,7 @@ def search_candidate_subtree(
     candidate: Move,
     incoming: int,
     stats: SearchStats,
+    deadline: float | None = None,
 ) -> SearchResult:
     """One split-root candidate of v6: its own full-window enhanced subtree,
     searched with principal variation search."""
@@ -57,6 +65,7 @@ def search_candidate_subtree(
         1,
         incoming if incoming > 0 else 0,
         True,
+        deadline,
     )
 
 
@@ -81,9 +90,12 @@ def _alpha_beta(
     ply: int = 0,
     incoming: int = 0,
     pvs: bool = False,
+    deadline: float | None = None,
 ) -> SearchResult:
+    if deadline is not None and stats.node_count % DEADLINE_CHECK_NODES == 0 and time.perf_counter() >= deadline:
+        raise SearchDeadlineExceeded
     if enhanced and depth <= 0:
-        return _quiescence(board, color, pre_move, stats, alpha, beta, incoming, QUIESCENCE_DEPTH)
+        return _quiescence(board, color, pre_move, stats, alpha, beta, incoming, QUIESCENCE_DEPTH, deadline)
     stats.node_count += 1
     score = evaluate(board, pre_move)
     if score == MAXINT or score == MININT:
@@ -108,7 +120,7 @@ def _alpha_beta(
         make_move(board, candidate, color)
         if pvs and prune and index > 0 and alpha + 1 < beta:
             child = _scouted_child(
-                depth - 1, board, color, candidate, stats, alpha, beta, prune, enhanced, ply + 1, child_incoming
+                depth - 1, board, color, candidate, stats, alpha, beta, prune, enhanced, ply + 1, child_incoming, deadline
             )
         else:
             child = _alpha_beta(
@@ -124,6 +136,7 @@ def _alpha_beta(
                 ply + 1,
                 child_incoming if child_incoming > 0 else 0,
                 pvs,
+                deadline,
             )
         unmake_move(board, candidate)
         best_score, best_move, alpha, beta, cutoff = _advance(
@@ -146,24 +159,25 @@ def _scouted_child(
     enhanced: bool,
     ply: int,
     child_incoming: int,
+    deadline: float | None = None,
 ) -> SearchResult:
     """A non-first child under principal variation search: scouted with a
     null window, re-searched wide when the scout fails high."""
     incoming = child_incoming if child_incoming > 0 else 0
     if color == Color.BLACK:
         scout = _alpha_beta(
-            depth, board, opponent(color), candidate, stats, alpha, alpha + 1, prune, enhanced, ply, incoming, True
+            depth, board, opponent(color), candidate, stats, alpha, alpha + 1, prune, enhanced, ply, incoming, True, deadline
         )
         if scout.score <= alpha:
             return scout
     else:
         scout = _alpha_beta(
-            depth, board, opponent(color), candidate, stats, beta - 1, beta, prune, enhanced, ply, incoming, True
+            depth, board, opponent(color), candidate, stats, beta - 1, beta, prune, enhanced, ply, incoming, True, deadline
         )
         if scout.score >= beta:
             return scout
     return _alpha_beta(
-        depth, board, opponent(color), candidate, stats, alpha, beta, prune, enhanced, ply, incoming, True
+        depth, board, opponent(color), candidate, stats, alpha, beta, prune, enhanced, ply, incoming, True, deadline
     )
 
 
@@ -207,7 +221,10 @@ def _quiescence(
     beta: int,
     incoming: int,
     qdepth: int,
+    deadline: float | None = None,
 ) -> SearchResult:
+    if deadline is not None and stats.node_count % DEADLINE_CHECK_NODES == 0 and time.perf_counter() >= deadline:
+        raise SearchDeadlineExceeded
     stats.node_count += 1
     maximizing = color == Color.BLACK
     stand = evaluate(board, pre_move)
@@ -255,6 +272,7 @@ def _quiescence(
             beta,
             threat if threat > 0 else 0,
             qdepth - 1,
+            deadline,
         )
         unmake_move(board, move)
         best_score, best_move, alpha, beta, cutoff = _advance(

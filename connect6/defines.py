@@ -103,6 +103,11 @@ QUIESCENCE_MIN_THREATS: Final = 3
 QUIESCENCE_WIDTH: Final = 8
 QUIESCENCE_DEPTH: Final = 6
 
+# Budget mode checks the wall deadline inside the alpha-beta/quiescence
+# recursion every DEADLINE_CHECK_NODES nodes; an expired recursion aborts
+# and the iteration degrades to the last completed depth.
+DEADLINE_CHECK_NODES: Final = 64
+
 # VCF — the forced-win search of the deployed engine: a narrow recursion over
 # forcing moves only. VCF_PLY_CAP bounds the chain length, VCF_NODE_CAP makes
 # a pathological probe return inconclusive instead of hanging the move.
@@ -120,7 +125,10 @@ V5_SCREEN_WIDTH: Final = 6
 # The v6 root: the v5 pipeline with the root split across worker processes,
 # principal variation search inside each candidate's subtree. Fixed mode
 # deepens under V6_NODE_BUDGET; budget mode deepens by wall time under
-# V6_TIME_BUDGET. The depth command of the protocol is the floor of both
+# V6_TIME_BUDGET, as a ladder from min(floor, 2) — rungs below the floor
+# climb ungated, continuation past it is predicted by V6_GROWTH_FACTOR, and
+# the deadline is enforced inside the recursion (DEADLINE_CHECK_NODES).
+# The depth command of the protocol is the floor of both
 # modes; V6_JOBS sets the number of workers (jobs=1 runs the split inline).
 V6_NODE_BUDGET: Final = 36000
 V6_TIME_BUDGET: Final = 28.0

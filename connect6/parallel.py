@@ -25,7 +25,7 @@ from .defines import (
     SearchResult,
 )
 from .evaluation import evaluate
-from .search import search_candidate_subtree
+from .search import SearchDeadlineExceeded, search_candidate_subtree
 from .vcf import find_forced_win, join_threats
 
 _pool: ProcessPoolExecutor | None = None
@@ -81,10 +81,17 @@ def _mark_stale() -> None:
         _pool_stale = True
 
 
-def _worker_subtree(board: Board, color: Color, depth: int, cells: tuple[int, int, int, int], incoming: int) -> tuple[int, int]:
+def _worker_subtree(
+    board: Board,
+    color: Color,
+    depth: int,
+    cells: tuple[int, int, int, int],
+    incoming: int,
+    deadline: float | None = None,
+) -> tuple[int, int]:
     candidate = Move((Position(cells[0], cells[1]), Position(cells[2], cells[3])))
     stats = SearchStats()
-    result = search_candidate_subtree(board, color, depth, candidate, incoming, stats)
+    result = search_candidate_subtree(board, color, depth, candidate, incoming, stats, deadline)
     return result.score, stats.node_count
 
 
@@ -115,7 +122,7 @@ def _split_root(
     if worker_count() > 1:
         executor = _ensure_pool(worker_count())
         futures = [
-            executor.submit(_worker_subtree, board, color, depth, _move_cells(candidate), threat)
+            executor.submit(_worker_subtree, board, color, depth, _move_cells(candidate), threat, deadline)
             for candidate, threat in zip(candidates, threats)
         ]
     maximizing = color == Color.BLACK
@@ -128,13 +135,20 @@ def _split_root(
             if deadline is not None and time.perf_counter() >= deadline:
                 complete = False
                 break
-            score, spent = _worker_subtree(board, color, depth, _move_cells(candidate), threats[index])
+            try:
+                score, spent = _worker_subtree(board, color, depth, _move_cells(candidate), threats[index], deadline)
+            except SearchDeadlineExceeded:
+                complete = False
+                break
         else:
             try:
                 if deadline is None:
                     score, spent = futures[index].result()
                 else:
                     score, spent = futures[index].result(timeout=max(deadline - time.perf_counter(), 0.0))
+            except SearchDeadlineExceeded:
+                complete = False
+                break
             except TimeoutError:
                 complete = False
                 _mark_stale()
@@ -182,8 +196,8 @@ def _budget_deepen(
     deadline: float,
 ) -> tuple[SearchResult, int]:
     best: SearchResult | None = None
-    reached = depth
-    current = depth
+    reached = min(depth, 2)
+    current = reached
     while True:
         iteration = SearchStats()
         started = time.perf_counter()
@@ -195,13 +209,13 @@ def _budget_deepen(
             reached = current
             if result.score in (MAXINT, MININT):
                 break
-            if deadline - time.perf_counter() < wall * V6_GROWTH_FACTOR:
+            if current >= depth and deadline - time.perf_counter() < wall * V6_GROWTH_FACTOR:
                 break
             current += 1
         else:
             if best is None or result.score == (MAXINT if color == Color.BLACK else MININT):
                 best = result
-                reached = current
+            reached = current
             break
     assert best is not None
     return best, reached

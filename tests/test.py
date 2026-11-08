@@ -21,7 +21,13 @@ from connect6.evaluation import evaluate, _score_living_sets
 from connect6.candidates import generate_candidate_moves, generate_scored_candidate_moves, _pair_correction
 from connect6.opening_book import book_move, position_key
 from connect6.threats import count_line_threats, count_move_threats
-from connect6.search import search_alpha_beta, search_alpha_beta_with_quiescence, search_candidate_subtree, search_min_max
+from connect6.search import (
+    SearchDeadlineExceeded,
+    search_alpha_beta,
+    search_alpha_beta_with_quiescence,
+    search_candidate_subtree,
+    search_min_max,
+)
 from connect6.vcf import find_forced_win, search_v5
 from connect6.parallel import search_v6
 from connect6.defines import (
@@ -1091,6 +1097,42 @@ def test_search_v6_budget_enforces_the_deadline_on_fork_heavy_positions():
     print(f"V6 Test 9 - Fork-heavy battery positions answer within the deadline cap (slowest {slowest:.2f}s): PASS")
 
 
+def test_search_v6_budget_ladders_to_a_deep_floor():
+    board = create_quiet_board()
+    pre_move = create_move_at(3, 10)
+    stats = SearchStats()
+    budget = 0.5
+    started = time.perf_counter()
+    result = search_v6(board, Color.WHITE, 9, pre_move, stats, True, budget)
+    wall = time.perf_counter() - started
+    work = copy_board(board)
+    assert all(work[x][y] == NOSTONE for x, y in placed_cells(result.move))
+    assert wall <= budget + 1.0, wall
+    assert 2 <= stats.depth_reached <= 9, stats.depth_reached
+    assert MININT < result.score < MAXINT, result.score
+    print("V6 Test 10 - A floor too deep for the budget is climbed to, not started from: PASS")
+
+
+def test_search_candidate_subtree_aborts_at_the_deadline():
+    board = create_quiet_board()
+    candidates, threats = generate_scored_candidate_moves(board, FORWARD_WIDTHS[0], Color.WHITE)
+    candidate, incoming = candidates[0], threats[0]
+    stats = SearchStats()
+    started = time.perf_counter()
+    raised = False
+    try:
+        search_candidate_subtree(board, Color.WHITE, 9, candidate, incoming, stats, time.perf_counter() + 0.001)
+    except SearchDeadlineExceeded:
+        raised = True
+    wall = time.perf_counter() - started
+    assert raised
+    assert wall < 1.0, wall
+    fresh = SearchStats()
+    result = search_candidate_subtree(board, Color.WHITE, 3, candidate, incoming, fresh)
+    assert MININT < result.score < MAXINT, result.score
+    print("V6 Test 11 - The subtree recursion aborts at an expired deadline and completes without one: PASS")
+
+
 # ============================================================
 # OPENING BOOK TESTS
 # ============================================================
@@ -1485,6 +1527,8 @@ if __name__ == "__main__":
     test_search_v6_without_vcf_still_finds_the_fork()
     test_search_v6_preempts_armed_split()
     test_search_v6_budget_enforces_the_deadline_on_fork_heavy_positions()
+    test_search_v6_budget_ladders_to_a_deep_floor()
+    test_search_candidate_subtree_aborts_at_the_deadline()
 
     print("\n========== OPENING BOOK TESTS ==========\n")
     test_position_key_is_stone_inventory()
